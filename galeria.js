@@ -35,9 +35,10 @@
 .gal .g-row.g-rev{animation-direction:reverse}
 .gal .g-wall:hover .g-row{animation-play-state:paused}
 @keyframes galdrift{to{transform:translateX(calc(-50% - 6px))}}
-.gal .g-row button{border:1px solid var(--g-line);border-radius:4px;overflow:hidden;background:#fff;transition:transform .35s;flex:none}
+.gal .g-row button{border:1px solid var(--g-line);border-radius:4px;overflow:hidden;background:#fff;transition:transform .35s;flex:none;width:clamp(110px,15vw,190px);height:clamp(110px,15vw,190px);display:block}
 .gal .g-row button:hover{transform:translateY(-4px)}
-.gal .g-row img{height:clamp(110px,15vw,190px);width:clamp(110px,15vw,190px);object-fit:cover}
+.gal .g-row{align-items:flex-start}
+.gal .g-row img{width:100%!important;height:100%!important;object-fit:cover}
 .gal .g-bar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:26px 0 18px}
 .gal .g-chips{display:flex;flex-wrap:wrap;gap:8px}
 .gal .g-chip{border:1px solid var(--g-rust);border-radius:999px;padding:8px 18px;font-size:13px;transition:.25s;display:inline-flex;gap:8px;align-items:center;color:var(--g-rust)}
@@ -49,7 +50,7 @@
 .gal .g-card{position:relative;background:#fff;border:1px solid var(--g-line);border-radius:4px;overflow:hidden;aspect-ratio:1;text-align:left;
   transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .25s ease-out,box-shadow .3s}
 .gal .g-card.g-big{grid-column:span 2;grid-row:span 2}
-.gal .g-card img{width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.8,.2,1)}
+.gal .g-card img{width:100%!important;height:100%!important;object-fit:cover;transition:transform .7s cubic-bezier(.2,.8,.2,1)}
 .gal .g-card:hover{box-shadow:0 18px 34px -18px rgba(26,18,8,.55)}
 .gal .g-card:hover img{transform:scale(1.06)}
 .gal .g-card .g-cap{position:absolute;left:0;right:0;bottom:0;padding:40px 16px 14px;display:flex;justify-content:space-between;align-items:flex-end;gap:10px;color:var(--g-cream);
@@ -116,7 +117,7 @@
 
   // Integración con la plantilla: usar todo el ancho y ocultar el título automático de la página
   var col = root.closest('.col-md-8'); if (col) { col.classList.remove('col-md-8'); col.classList.add('col-12'); }
-  Array.prototype.forEach.call(document.querySelectorAll('h1'), function (h) { if (!root.contains(h) && h.textContent.trim() === 'Piezas únicas') h.style.display = 'none'; });
+  Array.prototype.forEach.call(document.querySelectorAll('h1'), function (h) { if (!root.contains(h) && /^(Piezas únicas|Historial de piezas)$/.test(h.textContent.trim())) h.style.display = 'none'; });
 
   var WA_SVG = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm5.3 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2 1.3 2.3 1.4.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg>';
 
@@ -130,7 +131,7 @@
     var years = DATA.map(function (d) { return +d.anio; }).filter(Boolean);
     var span = new Date().getFullYear() - Math.min.apply(null, years);
     root.innerHTML =
-      '<div class="g-hero"><div class="g-kick">Archivo vivo</div><h2>Piezas <em>únicas</em></h2>' +
+      '<div class="g-hero"><div class="g-kick">Archivo vivo</div><h2>Historial <em>de piezas</em></h2>' +
       '<div class="hf"><p>Lo que fuimos haciendo con las manos, de a una. Cada pieza existió una sola vez. Si alguna te quedó dando vueltas, la hacemos de nuevo a tu medida.</p>' +
       '<div class="g-stats"><div><b>' + DATA.length + '</b><span>piezas</span></div><div><b>' + span + '</b><span>años de taller</span></div></div></div></div>' +
       '<div class="g-wall" id="gwall" aria-label="Muro de piezas"></div>' +
