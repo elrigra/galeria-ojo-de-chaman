@@ -21,16 +21,11 @@
       citaOut: 'No estaba bromeando.',
       p: [
         'A lo largo de su adolescencia aprendió todo lo que encontró: macramé, tallado en madera, grabados con lupa, pulseras, origami, cerámica. Hasta que un día llegó la cota de malla, sus primeras piezas fueron partes de armaduras medievales. De ahí fue reduciendo la escala hasta llegar a sus primeras joyas.',
-        'Cuando terminó la escuela técnica tenía una sola certeza: no quería estudiar nada basado en teorías. Quería pasar sus días en un taller haciendo cosas. La joyería apareció como la excusa perfecta, y cuando encontró La Escuela de la Joya ya estaba totalmente decidido.'
-      ],
-      linea: [
-        ['2006', 'Se muda a Buenos Aires y empieza su carrera de joyero.'],
-        ['3 años', 'En el taller de Antonio Belgiorno, aprendiendo el oficio desde adentro.'],
-        ['Nueva Zelanda', 'Deja todo para hacer un working holiday de más de un año.'],
-        ['Fines de 2010', 'Vuelve a Buenos Aires y sabe lo que quiere: hacer sus propios diseños y dejar volar su imaginación.'],
-        ['Hoy', 'Casi 20 años perfeccionando su oficio: plata 925, oro, piedras naturales e impresión 3D.']
-      ],
-      cierre: 'Creó una página en Facebook, le dio forma a sus primeros diseños y empezaron a llegar los pedidos personalizados. Se fue especializando en materializar las ideas de otros en piezas únicas, con su identidad. Siempre aprendiendo, siempre desafiando lo que cree posible.'
+        'Cuando terminó la escuela técnica tenía una sola certeza: no quería estudiar nada basado en teorías. Quería pasar sus días en un taller haciendo cosas. La joyería apareció como la excusa perfecta, y cuando encontró La Escuela de la Joya ya estaba totalmente decidido.',
+        'En 2006 se mudó a Buenos Aires y empezó su carrera de joyero. Al poco tiempo consiguió trabajo en el taller de Antonio Belgiorno, donde estuvo casi tres años aprendiendo el oficio desde adentro. Después dejó todo para hacer un working holiday de más de un año por Nueva Zelanda. Cuando volvió a Buenos Aires a fines de 2010, supo exactamente lo que quería: hacer sus propios diseños y dejar volar su imaginación.',
+        'Creó una página en Facebook, le dio forma a sus primeros diseños y empezaron a llegar los pedidos personalizados. Se fue especializando en materializar las ideas de otros en piezas únicas, con su identidad.',
+        'Hoy lleva casi 20 años perfeccionando su oficio. Trabaja plata 925, oro, piedras naturales e impresión 3D, siempre aprendiendo, siempre desafiando lo que cree posible.'
+      ]
     },
     vero: {
       kick: 'Vero · el color',
@@ -157,8 +152,7 @@
       '<div class="s-txt"><div class="s-kick s-rv">' + R.kick + '</div><h3 class="s-rv">' + R.titulo + '</h3>' +
       '<p class="s-rv">' + R.citaIntro + '</p><blockquote class="s-rv"><q>“' + R.cita + '”</q><small>' + R.citaOut + '</small></blockquote>' +
       '<div class="s-rv">' + P(R.p) + '</div>' +
-      '<ol class="s-tl">' + R.linea.map(function (l) { return '<li class="s-rv"><b>' + l[0] + '</b><span>' + l[1] + '</span></li>'; }).join('') + '</ol>' +
-      '<div class="s-rv"><p>' + R.cierre + '</p></div></div></section>' +
+      '</div></section>' +
 
     '<section class="s-sec s-rev"><div class="s-txt"><div class="s-kick s-rv">' + V.kick + '</div><h3 class="s-rv">' + V.titulo + '</h3><div class="s-rv">' + P(V.p) + '</div></div>' +
       '<figure class="s-fig s-rv"><div class="s-ph"><img src="' + FOTO_VERO + '" alt="Vero caminando por un pasillo del Congreso de la Nación" style="object-position:52% 50%" loading="lazy"></div><figcaption>Vero · gestora cultural</figcaption></figure></section>' +
