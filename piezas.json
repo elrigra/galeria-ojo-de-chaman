@@ -1,0 +1,107 @@
+[
+ {
+  "id": 1,
+  "nombre": "Monedas Bitcoin",
+  "tipo": "Monedas",
+  "anio": "2020",
+  "fotos": [
+   "img/monedas-bitcoin/1",
+   "img/monedas-bitcoin/2"
+  ],
+  "estudio": true
+ },
+ {
+  "id": 2,
+  "nombre": "Colgante Luna con esfera",
+  "tipo": "Colgantes",
+  "anio": "2020",
+  "fotos": [
+   "img/colgante-luna-con-esfera/1",
+   "img/colgante-luna-con-esfera/2"
+  ],
+  "estudio": true
+ },
+ {
+  "id": 3,
+  "nombre": "Sello Bitcoin",
+  "tipo": "Anillos",
+  "anio": "2020",
+  "fotos": [
+   "img/sello-bitcoin/1",
+   "img/sello-bitcoin/2"
+  ],
+  "estudio": true
+ },
+ {
+  "id": 4,
+  "nombre": "Colgante Coral",
+  "tipo": "Colgantes",
+  "anio": "2020",
+  "fotos": [
+   "img/colgante-coral/1"
+  ],
+  "estudio": true
+ },
+ {
+  "id": 5,
+  "nombre": "Colgante Sedum",
+  "tipo": "Colgantes",
+  "anio": "2020",
+  "fotos": [
+   "img/colgante-sedum/1",
+   "img/colgante-sedum/2",
+   "img/colgante-sedum/3"
+  ],
+  "estudio": true
+ },
+ {
+  "id": 6,
+  "nombre": "Anillo Ola",
+  "tipo": "Anillos",
+  "anio": "2020",
+  "fotos": [
+   "img/anillo-ola/1"
+  ],
+  "estudio": true
+ },
+ {
+  "id": 7,
+  "nombre": "Medalla Ojo y tabla de surf",
+  "tipo": "Puestas",
+  "anio": "",
+  "fotos": [
+   "img/medalla-ojo-y-tabla-de-surf/1"
+  ],
+  "estudio": false
+ },
+ {
+  "id": 8,
+  "nombre": "Medalla Ojo con anillo Ola",
+  "tipo": "Puestas",
+  "anio": "",
+  "fotos": [
+   "img/medalla-ojo-con-anillo-ola/1"
+  ],
+  "estudio": false
+ },
+ {
+  "id": 9,
+  "nombre": "Anillo Sedum",
+  "tipo": "Anillos",
+  "anio": "2019",
+  "fotos": [
+   "img/anillo-sedum/1"
+  ],
+  "estudio": true
+ },
+ {
+  "id": 10,
+  "nombre": "Flor Sedum",
+  "tipo": "Colgantes",
+  "anio": "2019",
+  "fotos": [
+   "img/flor-sedum/1"
+  ],
+  "estudio": true
+ }
+]
