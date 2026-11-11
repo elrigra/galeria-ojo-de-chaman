@@ -4,7 +4,7 @@
    Los textos están en este archivo (sección TEXTOS). Las fotos son las mismas que ya tenía la página. */
 (function () {
   var WA = '5491133112754';
-  var FOTO_RIGRA = 'https://d1a9qnv764bsoo.cloudfront.net/stores/487/112/rte/blobid0.jpg';
+  var FOTO_RIGRA = new URL('img/sobre/rigra.jpg', (document.currentScript && document.currentScript.src) || location.href).href;
   var FOTO_VERO = 'https://d1a9qnv764bsoo.cloudfront.net/stores/487/112/rte/blobid1.jpg';
   var wa = function (t) { return 'https://wa.me/' + WA + '?text=' + encodeURIComponent(t); };
   var $ = function (s, r) { return (r || document).querySelector(s); };
