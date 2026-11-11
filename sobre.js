@@ -12,7 +12,7 @@
   /* ---------- TEXTOS ---------- */
   var T = {
     tagline: 'Joyería artesanal nacida del amor por hacer cosas con las manos — y por las personas que las usan.',
-    stats: [['2006', 'empieza el oficio'], ['+19', 'años de taller'], ['1', 'taller en Pilar']],
+    stats: [['2006', 'empieza el oficio'], ['+19', 'años de taller']],
     rigra: {
       kick: 'Rigra · el taller',
       titulo: 'Rigra empezó a hacer cosas desde que tiene memoria.',
