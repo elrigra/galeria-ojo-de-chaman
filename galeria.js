@@ -146,7 +146,7 @@
     root.innerHTML =
       '<div class="g-hero"><div class="g-kick">Archivo vivo</div><h2>Archivo <em>histórico</em></h2>' +
       '<div class="hf"><p>Lo que fuimos haciendo con las manos, de a una, de la más vieja a la más nueva, para que se vea cómo fue cambiando el oficio. Cada pieza existió una sola vez. Si alguna te quedó dando vueltas, la hacemos de nuevo a tu medida.</p>' +
-      '<div class="g-stats"><div><b>' + DATA.length + '</b><span>piezas</span></div><div><b>' + span + '</b><span>años de historia</span></div></div></div></div>' +
+      '<div class="g-stats"><div><b>' + DATA.length + '</b><span>piezas por ahora<br>estamos cargando las demás</span></div><div><b>' + span + '</b><span>años de historia</span></div></div></div></div>' +
       '<div class="g-wall" id="gwall" aria-label="Muro de piezas"></div>' +
       '<div class="g-bar"><div class="g-chips" id="gchips" role="group" aria-label="Filtrar por tipo"></div><div class="g-count" id="gcount" aria-live="polite"></div></div>' +
       '<div class="g-nav" id="gnav"></div><div id="ggrid"></div><div style="height:36px"></div>' +
