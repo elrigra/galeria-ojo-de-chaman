@@ -1,0 +1,17 @@
+<!doctype html><meta charset="utf-8"><title>copiar</title>
+<body style="font:16px sans-serif;margin:0;padding:20px;background:#fff">
+<button id="b" style="font-size:22px;padding:14px 22px">Copiar imagen</button> <span id="s"></span><br><br>
+<img id="i" style="max-width:420px;border:1px solid #ccc">
+<script>
+var n=new URLSearchParams(location.search).get('img')||'DSC02132';
+var i=document.getElementById('i'); i.src=n+'.jpg';
+document.getElementById('b').onclick=async function(){
+  try{
+    var c=document.createElement('canvas'); c.width=i.naturalWidth; c.height=i.naturalHeight;
+    c.getContext('2d').drawImage(i,0,0);
+    var blob=await new Promise(function(r){c.toBlob(r,'image/png')});
+    await navigator.clipboard.write([new ClipboardItem({'image/png':blob})]);
+    document.getElementById('s').textContent='COPIADA '+c.width+'x'+c.height;
+  }catch(e){document.getElementById('s').textContent='ERROR '+e}
+};
+</script>
