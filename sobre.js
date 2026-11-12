@@ -5,6 +5,7 @@
 (function () {
   var WA = '5491133112754';
   var FOTO_RIGRA = new URL('img/sobre/rigra.jpg', (document.currentScript && document.currentScript.src) || location.href).href;
+  var FOTO_JUNTOS = new URL('img/sobre/juntos.jpg', (document.currentScript && document.currentScript.src) || location.href).href;
   var FOTO_VERO = 'https://d1a9qnv764bsoo.cloudfront.net/stores/487/112/rte/blobid1.jpg';
   var wa = function (t) { return 'https://wa.me/' + WA + '?text=' + encodeURIComponent(t); };
   var $ = function (s, r) { return (r || document).querySelector(s); };
@@ -94,7 +95,10 @@
 .sob .s-tl li.s-in::before{background:var(--g-gold)}
 .sob .s-tl b{display:block;font-family:var(--heading-font,'Work Sans',sans-serif);font-size:20px;line-height:1.2;margin-bottom:2px}
 .sob .s-tl span{font-size:15px}
-.sob .s-marca{background:var(--g-dark);color:var(--g-cream);padding:clamp(54px,8vw,110px) 0}
+.sob .s-marca{background:var(--g-dark);color:var(--g-cream);padding:0 0 clamp(54px,8vw,110px)}
+.sob .s-pic{height:clamp(220px,40vw,560px);overflow:hidden;margin-bottom:clamp(40px,6vw,80px);position:relative}
+.sob .s-pic img{width:100%!important;height:100%!important;object-fit:cover;object-position:50% 35%}
+.sob .s-pic::after{content:"";position:absolute;inset:auto 0 0 0;height:35%;background:linear-gradient(transparent,var(--g-dark))}
 .sob .s-marca h3{color:var(--g-cream);font-size:clamp(32px,5.4vw,68px);line-height:1.02;max-width:18ch}
 .sob .s-marca .s-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px clamp(28px,5vw,72px);margin-top:34px}
 .sob .s-marca p{font-size:clamp(16px,1.5vw,18px);margin:0}
@@ -136,7 +140,7 @@
   // integración con la plantilla: ancho completo y ocultar el título automático
   var col = root.closest('.col-md-8'); if (col) { col.classList.remove('col-md-8'); col.classList.add('col-12'); }
   Array.prototype.forEach.call(document.querySelectorAll('h1'), function (h) {
-    if (!root.contains(h) && /^(Sobre nosotros|Somos Rigra y Vero)$/.test(h.textContent.trim())) h.style.display = 'none';
+    if (!root.contains(h) && /^(Sobre nosotros|Nuestra Historia|Somos Rigra y Vero)$/.test(h.textContent.trim())) h.style.display = 'none';
   });
 
   var WA_SVG = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm5.3 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg>';
@@ -144,7 +148,7 @@
   var R = T.rigra, V = T.vero;
 
   root.innerHTML =
-    '<section class="s-hero s-rv"><div class="s-kick">Sobre nosotros</div><h2>Rigra <em>&amp; Vero</em></h2>' +
+    '<section class="s-hero s-rv"><div class="s-kick">Nuestra Historia</div><h2>Rigra <em>&amp; Vero</em></h2>' +
       '<div class="s-hf"><p>' + T.tagline + '</p><div class="s-stats">' +
       T.stats.map(function (s) { return '<div><b>' + s[0] + '</b><span>' + s[1] + '</span></div>'; }).join('') + '</div></div></section>' +
 
@@ -157,7 +161,7 @@
     '<section class="s-sec s-rev"><div class="s-txt"><div class="s-kick s-rv">' + V.kick + '</div><h3 class="s-rv">' + V.titulo + '</h3><div class="s-rv">' + P(V.p) + '</div></div>' +
       '<figure class="s-fig s-rv"><div class="s-ph"><img src="' + FOTO_VERO + '" alt="Vero caminando por un pasillo del Congreso de la Nación" style="object-position:52% 50%" loading="lazy"></div><figcaption>Vero · gestora cultural</figcaption></figure></section>' +
 
-    '<section class="s-marca" id="smarca"><div class="s-in2"><div class="s-kick s-rv">La marca</div><h3 class="s-rv" style="margin-top:14px">' + T.marca.titulo + '</h3>' +
+    '<section class="s-marca" id="smarca"><div class="s-pic s-rv"><img src="' + FOTO_JUNTOS + '" alt="Rigra y Vero trabajando juntos en el taller de Ojo de Chamán" loading="lazy"></div><div class="s-in2"><div class="s-kick s-rv">La marca</div><h3 class="s-rv" style="margin-top:14px">' + T.marca.titulo + '</h3>' +
       '<div class="s-cols s-rv">' + T.marca.p.map(function (t) { return '<p>' + t + '</p>'; }).join('') + '</div></div></section>' +
 
     '<section class="s-val"><h3 class="s-rv">' + T.valores.titulo + '</h3><p class="s-rv">' + T.valores.p + '</p>' +
