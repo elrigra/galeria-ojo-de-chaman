@@ -58,6 +58,7 @@
 .faq{--g-cream:#f5edd6;--g-paper:#fbf6e8;--g-dark:#1a1208;--g-rust:#8b2e0f;--g-gold:#c8860a;--g-line:#1a1208;
   font-family:var(--body-font,'Lexend',sans-serif);color:var(--g-rust);line-height:1.65}
 .faq *{box-sizing:border-box}
+.faq{max-width:100%;overflow-x:clip}
 .faq h2,.faq h3,.faq h4{font-family:var(--heading-font,'Work Sans',sans-serif);font-weight:700;margin:0;color:var(--g-rust);letter-spacing:-.01em;text-transform:none}
 .faq p{margin:0 0 1em}
 .faq a{color:var(--g-rust);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--g-gold)}
@@ -71,7 +72,7 @@
 .faq .f-hero h2{font-size:clamp(42px,7.6vw,96px);line-height:.98;margin:14px 0 0;letter-spacing:-.025em}
 .faq .f-hero p{max-width:46ch;margin:22px 0 0;font-size:clamp(16px,1.6vw,19px)}
 .faq .f-main{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,8fr);gap:clamp(24px,5vw,72px);align-items:start;padding:34px 0 20px;border-top:1px solid rgba(26,18,8,.25)}
-.faq .f-side{position:sticky;top:24px}
+.faq .f-side{position:sticky;top:24px;min-width:0}
 .faq .f-search{position:relative;margin-bottom:18px}
 .faq .f-search input{width:100%;height:46px;border:1px solid var(--g-line);border-radius:999px;background:#fff;padding:0 20px 0 44px;font:inherit;font-size:14px;color:var(--g-dark);margin:0;box-shadow:none}
 .faq .f-search input:focus{outline:2px solid var(--g-gold);outline-offset:2px}
@@ -111,9 +112,10 @@
 .faq.f-js .f-rv{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1)}
 .faq.f-js .f-rv.f-in{opacity:1;transform:none}
 @media (max-width:820px){
-  .faq .f-main{grid-template-columns:1fr;gap:20px;padding-top:26px}
+  .faq .f-main{grid-template-columns:minmax(0,1fr);gap:20px;padding-top:26px}
+  .faq .f-main>*{min-width:0;max-width:100%}
   .faq .f-side{position:static}
-  .faq .f-chips{flex-direction:row;flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;margin:0 -2px}
+  .faq .f-chips{flex-direction:row;flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;width:100%;max-width:100%;-webkit-overflow-scrolling:touch}
   .faq .f-chip{flex:none;white-space:nowrap}
   .faq .f-count{margin-top:12px}
 }
