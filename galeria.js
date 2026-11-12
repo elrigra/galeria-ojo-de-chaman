@@ -158,7 +158,7 @@
     var lb = document.createElement('div'); lb.className = 'glb'; lb.setAttribute('role', 'dialog'); lb.setAttribute('aria-modal', 'true'); lb.setAttribute('aria-label', 'Visor de piezas');
     lb.innerHTML = '<button class="x" aria-label="Cerrar">×</button><div class="stage"><div class="car"><div class="vp"><div class="track"></div></div>' +
       '<button class="ar p" aria-label="Foto anterior">‹</button><button class="ar n" aria-label="Foto siguiente">›</button><div class="dots" aria-hidden="true"></div></div>' +
-      '<div class="info"><div class="tg"></div><h3></h3><p>Pieza única. La hacemos de nuevo a tu medida, con pequeñas variaciones porque cada una sale a mano.</p>' +
+      '<div class="info"><div class="tg"></div><h3></h3><p class="tx"></p><p class="sub" style="font-size:13px;opacity:.75">Pieza única. La hacemos de nuevo a tu medida, con pequeñas variaciones porque cada una sale a mano.</p>' +
       '<dl><dt>Material</dt><dd class="m">Plata 925</dd><dt class="yk">Año</dt><dd class="y"></dd></dl><a class="g-btn" target="_blank" rel="noopener">Quiero algo parecido</a></div></div>';
     document.body.appendChild(lb);
 
@@ -249,7 +249,7 @@
     function build() {
       var d = view[open], n = d.l.length;
       track.innerHTML = d.l.map(function (s, i) { return '<button class="slide" data-i="' + i + '" aria-label="Foto ' + (i + 1) + ' de ' + n + '"><img src="' + s + '" alt="' + d.nombre + '"></button>'; }).join('');
-      $('.m', lb).textContent = d.material || 'Plata 925'; $('.tg', lb).textContent = d.tipo; $('h3', lb).textContent = d.nombre;
+      $('.m', lb).textContent = d.material || 'Plata 925'; $('.tg', lb).textContent = d.tipo; $('h3', lb).textContent = d.nombre; $('.tx', lb).textContent = d.texto || ''; $('.tx', lb).style.display = d.texto ? '' : 'none';
       $('.y', lb).textContent = d.anio || ''; $('.y', lb).style.display = $('.yk', lb).style.display = d.anio ? '' : 'none';
       $('.dots', lb).innerHTML = n > 1 ? d.l.map(function () { return '<i></i>'; }).join('') : '';
       $('.ar.p', lb).hidden = $('.ar.n', lb).hidden = n < 2;
