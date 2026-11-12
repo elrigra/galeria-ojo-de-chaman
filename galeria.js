@@ -145,7 +145,7 @@
     var span = new Date().getFullYear() - Math.min.apply(null, years);
     root.innerHTML =
       '<div class="g-hero"><div class="g-kick">Archivo vivo</div><h2>Archivo <em>histórico</em></h2>' +
-      '<div class="hf"><p>Lo que fuimos haciendo con las manos, de a una, ordenado por año para que se vea cómo fue cambiando el oficio. Cada pieza existió una sola vez. Si alguna te quedó dando vueltas, la hacemos de nuevo a tu medida.</p>' +
+      '<div class="hf"><p>Lo que fuimos haciendo con las manos, de a una, de la más vieja a la más nueva, para que se vea cómo fue cambiando el oficio. Cada pieza existió una sola vez. Si alguna te quedó dando vueltas, la hacemos de nuevo a tu medida.</p>' +
       '<div class="g-stats"><div><b>' + DATA.length + '</b><span>piezas</span></div><div><b>' + span + '</b><span>años de historia</span></div></div></div></div>' +
       '<div class="g-wall" id="gwall" aria-label="Muro de piezas"></div>' +
       '<div class="g-bar"><div class="g-chips" id="gchips" role="group" aria-label="Filtrar por tipo"></div><div class="g-count" id="gcount" aria-live="polite"></div></div>' +
@@ -211,20 +211,12 @@
       else { var g = document.createElement('div'); g.className = 'g-ygrid'; items.forEach(function (d, k) { addCard(d, g, k === 0 && items.length >= 3); }); sec.appendChild(g); }
       grid.appendChild(sec);
     }
-    var navHtml = '<small>Ir a</small>', run = [];
-    function flush() {
-      if (!run.length) return;
-      var t = run.length > 1 ? run[0] + ' – ' + run[run.length - 1] : '' + run[0], id = run[0];
-      addSection(id, t, 0, [], true); navHtml += '<a class="off" data-t="gy' + id + '">' + t + '</a>'; run = [];
-    }
-    for (var y = y0; y <= y1; y++) {
-      if (byYear[y]) { flush(); addSection(y, y, byYear[y].length, byYear[y], false); navHtml += '<a data-t="gy' + y + '">' + y + '</a>'; }
-      else run.push(y);
-    }
-    flush();
-    if (byYear.x) addSection('x', 'Sin fecha', byYear.x.length, byYear.x, false);
-    nav.innerHTML = navHtml;
-    nav.addEventListener('click', function (e) { var a = e.target.closest('a'); if (!a) return; var el = document.getElementById(a.dataset.t); if (el) el.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion:reduce)').matches ? 'auto' : 'smooth', block: 'start' }); });
+    var sec = document.createElement('section'); sec.className = 'g-yr';
+    var g = document.createElement('div'); g.className = 'g-ygrid';
+    DATA.forEach(function (d, k) { addCard(d, g, k === 0); }); sec.appendChild(g);
+    sec.insertAdjacentHTML('beforeend', '<div class="g-soon" id="gsoon"><b>Cargando piezas</b>Seguimos subiendo piezas de los años siguientes. Volvé más tarde para verlas.</div>');
+    grid.appendChild(sec);
+    nav.hidden = true;
 
     // filtros
     var chips = $('#gchips');
@@ -235,10 +227,7 @@
     });
     function applyFilter() {
       grid.querySelectorAll('.g-card').forEach(function (c) { var d = DATA.find(function (x) { return x.id == c.dataset.id; }); c.hidden = !(cur === 'Todas' || d.tipo === cur); });
-      grid.querySelectorAll('.g-yr').forEach(function (sec) {
-        var any = sec.querySelector('.g-card:not([hidden])'); sec.hidden = sec.dataset.soon ? cur !== 'Todas' : !any;
-      });
-      nav.hidden = cur !== 'Todas';
+      $('#gsoon').hidden = cur !== 'Todas';
       view = DATA.filter(function (d) { return cur === 'Todas' || d.tipo === cur; });
       $('#gcount').textContent = view.length + (view.length === 1 ? ' pieza' : ' piezas');
       chips.querySelectorAll('.g-chip').forEach(function (c, i) { c.setAttribute('aria-pressed', tags[i] === cur); });
