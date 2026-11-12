@@ -11,7 +11,7 @@
   var IG = '<a href="https://www.instagram.com/ojo.de.chaman/" target="_blank" rel="noopener">@ojo.de.chaman</a>';
 
   /* ---------- TEXTOS ---------- */
-  var CATS = ['Envíos y pagos', 'Encargos', 'Showroom', 'Cuidado de tus joyas'];
+  var CATS = ['Envíos y pagos', 'Encargos', 'Cuidado de tus joyas'];
   var Q = [
     { c: 0, q: '¿Cómo se realizan los envíos?', a: [
       'Los envíos se realizan por Correo Argentino y superando los $120.000 <b>¡son gratis a todo el país!</b>',
@@ -31,21 +31,18 @@
     { c: 1, q: '¿Puedo traer mi propio oro para que lo transformen?', a: [
       'Sí. Si tenés joyas de oro que ya no usás (alianzas, aros, cadenas) podemos fundirlas y transformarlas en una pieza nueva con diseño a tu elección. Es una de las formas más especiales de hacer joyería: el metal tiene una historia, y la nueva pieza la porta.',
       'Consultanos para coordinar la entrega del material y el presupuesto.'] },
-    { c: 2, q: '¿Tienen showroom físico?', a: [
-      'Sí, podés visitarnos en el showroom Espacio Hormiga en Islas Malvinas 2631, Castelar, Provincia de Buenos Aires. Ahí podés ver las piezas en persona, probártelas y encargar tu joya cara a cara con Rigra o Vero.',
-      'Consultá horarios de atención por Instagram antes de venir: <a href="https://www.instagram.com/espacio.hormiga/" target="_blank" rel="noopener">@espacio.hormiga</a>'] },
     { c: 1, q: '¿Hacen alianzas de matrimonio?', a: [
       'Sí, hacemos alianzas artesanales en plata 925 y oro. Cada par se trabaja a mano y podemos incluir grabado interior con una fecha, inicial o frase. Al ser encargos personalizados, el precio varía según el diseño y el material, escribinos para cotizar el tuyo.'] },
     { c: 0, q: '¿Puedo solicitar un cambio?', a: [
       'Podés solicitar un cambio de tu joya hasta 15 días luego de recibir tu pedido. Para eso escribinos a ' + MAIL + '. Es necesario que no la hayas usado y que la guardes en su packaging original para poder acceder al cambio.'] },
-    { c: 3, q: '¿Cómo cuidar tus joyas?', a: [
+    { c: 2, q: '¿Cómo cuidar tus joyas?', a: [
       'Cada pieza de Ojo de Chamán fue hecha a mano en plata 925. Cuidar de tus joyas asegura que se vean hermosas cada vez que las uses.',
       'La plata naturalmente va perdiendo su brillo con el tiempo, pero lo hará mucho más rápido si está expuesta a luz UV, perfumes, aire de mar, cremas para la piel, spray de pelo, cloros y detergentes. Esto es completamente normal y no significa que el material sea de poca calidad.',
       'Por eso te recomendamos que te las saques cuando te bañás, cuando limpiás, cuando hacés ejercicio o cuando te vas a dormir. Evitá ponerte perfume o cremas directamente sobre ellas y tené cuidado con productos químicos de limpieza.'] },
-    { c: 3, q: '¿Cómo limpiar tus joyas?', a: [
+    { c: 2, q: '¿Cómo limpiar tus joyas?', a: [
       'Podés usar jabón suave con agua tibia para frotar gentilmente tus piezas. De ser necesario ayudate con un cepillo de dientes para remover la suciedad más difícil. Después enjuagá con abundante agua y asegurate de que queden completamente secas antes de guardarlas.',
       'Para restaurar el brillo de una pieza opacada, usá un paño de pulido o microfibra y frotá con suavidad hasta recuperar el lustre.'] },
-    { c: 3, q: '¿Cómo guardar tus joyas?', a: [
+    { c: 2, q: '¿Cómo guardar tus joyas?', a: [
       'Guardá los colgantes con las cadenas sujetas para evitar que se enreden. Evitá dejarlas al sol, en ambientes húmedos como el baño, o expuestas al aire. Las cajas herméticas o bolsas ziplock individuales son ideales porque evitan que pierdan el brillo y que se dañen entre sí.',
       'Los platitos en la mesa de luz y los exhibidores de joyería son muy lindos, pero dejan las joyas expuestas al aire y a la luz — solo se recomiendan para las piezas que vas a volver a usar en el corto plazo.'] }
   ];
