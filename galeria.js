@@ -46,7 +46,7 @@
 .gal .g-chip:hover{background:rgba(139,46,15,.08)}
 .gal .g-chip[aria-pressed=true]{background:var(--g-rust);color:var(--g-cream);border-color:var(--g-rust)}
 .gal .g-count{font-size:12px;letter-spacing:.12em;text-transform:uppercase}
-.gal .g-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));grid-auto-flow:dense;gap:16px;padding-bottom:56px}
+.gal .g-ygrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));grid-auto-flow:dense;gap:16px;padding-bottom:20px}
 .gal .g-card{position:relative;background:#fff;border:1px solid var(--g-line);border-radius:4px;overflow:hidden;aspect-ratio:1;text-align:left;
   transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .25s ease-out,box-shadow .3s}
 .gal .g-card.g-big{grid-column:span 2;grid-row:span 2}
@@ -62,6 +62,18 @@
 .gal .g-tag{left:10px;background:var(--g-cream);color:var(--g-rust);border:1px solid var(--g-rust)}
 .gal .g-multi{right:10px;background:var(--g-dark);color:var(--g-gold)}
 .gal .g-card[hidden]{display:none}
+.gal .g-yr{padding:34px 0 8px;scroll-margin-top:90px}
+.gal .g-yr[hidden]{display:none}
+.gal .g-yh{display:flex;align-items:baseline;gap:18px;border-top:1px solid var(--g-line);padding-top:14px;margin-bottom:18px}
+.gal .g-yh h3{font-size:clamp(34px,6vw,64px);line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.gal .g-yh span{font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.gal .g-soon{border:1px dashed var(--g-rust);border-radius:4px;padding:28px 22px;text-align:center;font-size:15px;margin-bottom:20px;background:var(--g-paper)}
+.gal .g-soon b{display:block;font-family:var(--heading-font,'Work Sans',sans-serif);font-size:18px;margin-bottom:4px}
+.gal .g-nav{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:0 0 4px}
+.gal .g-nav small{font-size:11px;letter-spacing:.14em;text-transform:uppercase;margin-right:4px}
+.gal .g-nav a{border:1px solid var(--g-rust);border-radius:999px;padding:5px 14px;font-size:12px;color:var(--g-rust);transition:.25s;cursor:pointer}
+.gal .g-nav a:hover{background:rgba(139,46,15,.08)}
+.gal .g-nav a.off{border-style:dashed;opacity:.6}
 @media (hover:none){.gal .g-card .g-cap{transform:none;padding-top:28px}.gal .g-cap em{display:none}}
 .gal .g-band{background:var(--g-dark);color:var(--g-cream);padding:clamp(34px,6vw,70px) 0}
 .gal .g-band .g-in{display:flex;flex-wrap:wrap;gap:24px 56px;align-items:center;justify-content:space-between}
@@ -117,7 +129,7 @@
 
   // Integración con la plantilla: usar todo el ancho y ocultar el título automático de la página
   var col = root.closest('.col-md-8'); if (col) { col.classList.remove('col-md-8'); col.classList.add('col-12'); }
-  Array.prototype.forEach.call(document.querySelectorAll('h1'), function (h) { if (!root.contains(h) && /^(Piezas únicas|Historial de piezas)$/.test(h.textContent.trim())) h.style.display = 'none'; });
+  Array.prototype.forEach.call(document.querySelectorAll('h1'), function (h) { if (!root.contains(h) && /^(Piezas únicas|Historial de piezas|Archivo histórico)$/.test(h.textContent.trim())) h.style.display = 'none'; });
 
   var WA_SVG = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm5.3 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2 1.3 2.3 1.4.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg>';
 
@@ -126,27 +138,28 @@
   });
 
   function start(DATA) {
+    DATA.sort(function (a, b) { return (+a.anio || 9999) - (+b.anio || 9999) || a.id - b.id; });
     DATA.forEach(function (d) { d.s = d.fotos.map(function (f) { return BASE + f + '-s.jpg'; }); d.l = d.fotos.map(function (f) { return BASE + f + '-l.jpg'; }); });
     var tags = ['Todas'].concat(DATA.map(function (d) { return d.tipo; }).filter(function (v, i, a) { return a.indexOf(v) === i; }));
     var years = DATA.map(function (d) { return +d.anio; }).filter(Boolean);
     var span = new Date().getFullYear() - Math.min.apply(null, years);
     root.innerHTML =
-      '<div class="g-hero"><div class="g-kick">Archivo vivo</div><h2>Historial <em>de piezas</em></h2>' +
-      '<div class="hf"><p>Lo que fuimos haciendo con las manos, de a una. Cada pieza existió una sola vez. Si alguna te quedó dando vueltas, la hacemos de nuevo a tu medida.</p>' +
-      '<div class="g-stats"><div><b>' + DATA.length + '</b><span>piezas</span></div><div><b>' + span + '</b><span>años de taller</span></div></div></div></div>' +
+      '<div class="g-hero"><div class="g-kick">Archivo vivo</div><h2>Archivo <em>histórico</em></h2>' +
+      '<div class="hf"><p>Lo que fuimos haciendo con las manos, de a una, ordenado por año para que se vea cómo fue cambiando el oficio. Cada pieza existió una sola vez. Si alguna te quedó dando vueltas, la hacemos de nuevo a tu medida.</p>' +
+      '<div class="g-stats"><div><b>' + DATA.length + '</b><span>piezas</span></div><div><b>' + span + '</b><span>años de historia</span></div></div></div></div>' +
       '<div class="g-wall" id="gwall" aria-label="Muro de piezas"></div>' +
       '<div class="g-bar"><div class="g-chips" id="gchips" role="group" aria-label="Filtrar por tipo"></div><div class="g-count" id="gcount" aria-live="polite"></div></div>' +
-      '<div class="g-grid" id="ggrid"></div>' +
+      '<div class="g-nav" id="gnav"></div><div id="ggrid"></div><div style="height:36px"></div>' +
       '<div class="g-band" id="gband"><div class="g-in"><div><h3>¿Te gustó alguna? Hagamos la tuya.</h3><p>Contanos cuál te llamó la atención, para quién es y qué talle usás. Te respondemos con tiempos y valores.</p></div>' +
       '<a class="g-btn" id="gcta" target="_blank" rel="noopener">' + WA_SVG + 'Pedir algo parecido</a></div></div>';
-    $('#gcta').href = wa('Hola! Vi el archivo de piezas únicas y me gustaría que me hagan algo parecido.');
+    $('#gcta').href = wa('Hola! Vi el archivo histórico de piezas y me gustaría que me hagan algo parecido.');
 
     // lightbox (en el body para quedar por encima del encabezado de la tienda)
     var lb = document.createElement('div'); lb.className = 'glb'; lb.setAttribute('role', 'dialog'); lb.setAttribute('aria-modal', 'true'); lb.setAttribute('aria-label', 'Visor de piezas');
     lb.innerHTML = '<button class="x" aria-label="Cerrar">×</button><div class="stage"><div class="car"><div class="vp"><div class="track"></div></div>' +
       '<button class="ar p" aria-label="Foto anterior">‹</button><button class="ar n" aria-label="Foto siguiente">›</button><div class="dots" aria-hidden="true"></div></div>' +
       '<div class="info"><div class="tg"></div><h3></h3><p>Pieza única. La hacemos de nuevo a tu medida, con pequeñas variaciones porque cada una sale a mano.</p>' +
-      '<dl><dt>Material</dt><dd>Plata 925</dd><dt class="yk">Año</dt><dd class="y"></dd></dl><a class="g-btn" target="_blank" rel="noopener">Quiero algo parecido</a></div></div>';
+      '<dl><dt>Material</dt><dd class="m">Plata 925</dd><dt class="yk">Año</dt><dd class="y"></dd></dl><a class="g-btn" target="_blank" rel="noopener">Quiero algo parecido</a></div></div>';
     document.body.appendChild(lb);
 
     var cur = 'Todas', view = DATA.slice(), open = -1, ph = 0;
@@ -173,22 +186,45 @@
       wall.appendChild(row);
     }
 
-    // grilla
-    var grid = $('#ggrid');
-    DATA.forEach(function (d, i) {
-      var b = document.createElement('button'); b.className = 'g-card' + (i % 7 === 0 ? ' g-big' : ''); b.dataset.id = d.id;
+    // grilla por año
+    var grid = $('#ggrid'), nav = $('#gnav');
+    var y0 = Math.min.apply(null, years), y1 = new Date().getFullYear(), byYear = {};
+    DATA.forEach(function (d, i) { d.i = i; var y = d.anio || 'x'; (byYear[y] = byYear[y] || []).push(d); });
+    function addCard(d, sec, big) {
+      var b = document.createElement('button'); b.className = 'g-card' + (big ? ' g-big' : ''); b.dataset.id = d.id;
       b.style.viewTransitionName = 'g' + d.id;
-      b.innerHTML = '<img src="' + (i % 7 === 0 ? d.l[0] : d.s[0]) + '" alt="' + d.nombre + '" loading="lazy"><span class="g-tag">' + d.tipo + '</span>' +
+      b.innerHTML = '<img src="' + (big ? d.l[0] : d.s[0]) + '" alt="' + d.nombre + '" loading="lazy"><span class="g-tag">' + d.tipo + '</span>' +
         (d.s.length > 1 ? '<span class="g-multi">' + d.s.length + ' fotos</span>' : '') + '<span class="g-cap"><strong>' + d.nombre + '</strong><em>' + (d.anio || 'Ver') + '</em></span>';
-      b.addEventListener('click', function () { openLb(i); });
+      b.addEventListener('click', function () { openLb(d.i); });
       b.addEventListener('pointermove', function (e) {
         if (e.pointerType !== 'mouse') return;
         var rc = b.getBoundingClientRect(), x = (e.clientX - rc.left) / rc.width - .5, y = (e.clientY - rc.top) / rc.height - .5;
         b.style.setProperty('--ry', (x * 8).toFixed(2) + 'deg'); b.style.setProperty('--rx', (-y * 8).toFixed(2) + 'deg');
       });
       b.addEventListener('pointerleave', function () { b.style.setProperty('--ry', '0deg'); b.style.setProperty('--rx', '0deg'); });
-      grid.appendChild(b);
-    });
+      sec.appendChild(b);
+    }
+    function addSection(id, title, count, items, soon) {
+      var sec = document.createElement('section'); sec.className = 'g-yr'; sec.id = 'gy' + id; sec.dataset.soon = soon ? '1' : '';
+      sec.innerHTML = '<div class="g-yh"><h3>' + title + '</h3><span>' + (soon ? 'en camino' : count + (count === 1 ? ' pieza' : ' piezas')) + '</span></div>';
+      if (soon) { sec.insertAdjacentHTML('beforeend', '<div class="g-soon"><b>Cargando piezas</b>Volvé más tarde para verlas.</div>'); }
+      else { var g = document.createElement('div'); g.className = 'g-ygrid'; items.forEach(function (d, k) { addCard(d, g, k === 0 && items.length >= 3); }); sec.appendChild(g); }
+      grid.appendChild(sec);
+    }
+    var navHtml = '<small>Ir a</small>', run = [];
+    function flush() {
+      if (!run.length) return;
+      var t = run.length > 1 ? run[0] + ' – ' + run[run.length - 1] : '' + run[0], id = run[0];
+      addSection(id, t, 0, [], true); navHtml += '<a class="off" data-t="gy' + id + '">' + t + '</a>'; run = [];
+    }
+    for (var y = y0; y <= y1; y++) {
+      if (byYear[y]) { flush(); addSection(y, y, byYear[y].length, byYear[y], false); navHtml += '<a data-t="gy' + y + '">' + y + '</a>'; }
+      else run.push(y);
+    }
+    flush();
+    if (byYear.x) addSection('x', 'Sin fecha', byYear.x.length, byYear.x, false);
+    nav.innerHTML = navHtml;
+    nav.addEventListener('click', function (e) { var a = e.target.closest('a'); if (!a) return; var el = document.getElementById(a.dataset.t); if (el) el.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion:reduce)').matches ? 'auto' : 'smooth', block: 'start' }); });
 
     // filtros
     var chips = $('#gchips');
@@ -199,6 +235,10 @@
     });
     function applyFilter() {
       grid.querySelectorAll('.g-card').forEach(function (c) { var d = DATA.find(function (x) { return x.id == c.dataset.id; }); c.hidden = !(cur === 'Todas' || d.tipo === cur); });
+      grid.querySelectorAll('.g-yr').forEach(function (sec) {
+        var any = sec.querySelector('.g-card:not([hidden])'); sec.hidden = sec.dataset.soon ? cur !== 'Todas' : !any;
+      });
+      nav.hidden = cur !== 'Todas';
       view = DATA.filter(function (d) { return cur === 'Todas' || d.tipo === cur; });
       $('#gcount').textContent = view.length + (view.length === 1 ? ' pieza' : ' piezas');
       chips.querySelectorAll('.g-chip').forEach(function (c, i) { c.setAttribute('aria-pressed', tags[i] === cur); });
@@ -220,11 +260,11 @@
     function build() {
       var d = view[open], n = d.l.length;
       track.innerHTML = d.l.map(function (s, i) { return '<button class="slide" data-i="' + i + '" aria-label="Foto ' + (i + 1) + ' de ' + n + '"><img src="' + s + '" alt="' + d.nombre + '"></button>'; }).join('');
-      $('.tg', lb).textContent = d.tipo; $('h3', lb).textContent = d.nombre;
+      $('.m', lb).textContent = d.material || 'Plata 925'; $('.tg', lb).textContent = d.tipo; $('h3', lb).textContent = d.nombre;
       $('.y', lb).textContent = d.anio || ''; $('.y', lb).style.display = $('.yk', lb).style.display = d.anio ? '' : 'none';
       $('.dots', lb).innerHTML = n > 1 ? d.l.map(function () { return '<i></i>'; }).join('') : '';
       $('.ar.p', lb).hidden = $('.ar.n', lb).hidden = n < 2;
-      $('.g-btn', lb).href = wa('Hola! Vi en el archivo de piezas únicas «' + d.nombre + '» y me gustaría pedir algo parecido.');
+      $('.g-btn', lb).href = wa('Hola! Vi en el archivo histórico «' + d.nombre + '» y me gustaría pedir algo parecido.');
     }
     function layout(instant) {
       var d = view[open]; if (!d) return;

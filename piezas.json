@@ -1,106 +1,230 @@
 [
  {
   "id": 1,
-  "nombre": "Monedas Bitcoin",
-  "tipo": "Monedas",
-  "anio": "2020",
+  "nombre": "Anillo ébano y plata",
+  "tipo": "Anillos",
+  "anio": "2008",
   "fotos": [
-   "img/monedas-bitcoin/1",
-   "img/monedas-bitcoin/2"
+   "img/anillo-ebano-y-plata/1"
   ],
-  "estudio": true
+  "estudio": true,
+  "material": "Plata 925 y ébano"
  },
  {
   "id": 2,
-  "nombre": "Colgante Luna con esfera",
-  "tipo": "Colgantes",
-  "anio": "2020",
+  "nombre": "Anillo Rayo ACDC",
+  "tipo": "Anillos",
+  "anio": "2008",
   "fotos": [
-   "img/colgante-luna-con-esfera/1",
-   "img/colgante-luna-con-esfera/2"
+   "img/anillo-rayo-acdc/1",
+   "img/anillo-rayo-acdc/2",
+   "img/anillo-rayo-acdc/3"
   ],
   "estudio": true
  },
  {
   "id": 3,
-  "nombre": "Sello Bitcoin",
-  "tipo": "Anillos",
-  "anio": "2020",
+  "nombre": "Dije baquetas",
+  "tipo": "Dijes",
+  "anio": "2008",
   "fotos": [
-   "img/sello-bitcoin/1",
-   "img/sello-bitcoin/2"
+   "img/dije-baquetas/1",
+   "img/dije-baquetas/2"
   ],
   "estudio": true
  },
  {
   "id": 4,
-  "nombre": "Colgante Coral",
-  "tipo": "Colgantes",
-  "anio": "2020",
+  "nombre": "Dije plata y retama",
+  "tipo": "Dijes",
+  "anio": "2008",
   "fotos": [
-   "img/colgante-coral/1"
+   "img/dije-plata-y-retama/1"
   ],
-  "estudio": true
+  "estudio": true,
+  "material": "Plata 925 y madera"
  },
  {
   "id": 5,
-  "nombre": "Colgante Sedum",
-  "tipo": "Colgantes",
-  "anio": "2020",
+  "nombre": "Dije quebracho y plata",
+  "tipo": "Dijes",
+  "anio": "2008",
   "fotos": [
-   "img/colgante-sedum/1",
-   "img/colgante-sedum/2",
-   "img/colgante-sedum/3"
+   "img/dije-quebracho-y-plata/1",
+   "img/dije-quebracho-y-plata/2",
+   "img/dije-quebracho-y-plata/3"
   ],
-  "estudio": true
+  "estudio": true,
+  "material": "Plata 925 y madera"
  },
  {
   "id": 6,
-  "nombre": "Anillo Ola",
+  "nombre": "Anillo Tauro",
   "tipo": "Anillos",
-  "anio": "2020",
+  "anio": "2011",
   "fotos": [
-   "img/anillo-ola/1"
+   "img/anillo-tauro/1",
+   "img/anillo-tauro/2",
+   "img/anillo-tauro/3"
   ],
   "estudio": true
  },
  {
   "id": 7,
-  "nombre": "Medalla Ojo y tabla de surf",
-  "tipo": "Puestas",
-  "anio": "",
+  "nombre": "Anillo cinta de Moebius",
+  "tipo": "Anillos",
+  "anio": "2011",
   "fotos": [
-   "img/medalla-ojo-y-tabla-de-surf/1"
+   "img/anillo-cinta-de-moebius/1",
+   "img/anillo-cinta-de-moebius/2"
   ],
-  "estudio": false
+  "estudio": true
  },
  {
   "id": 8,
-  "nombre": "Medalla Ojo con anillo Ola",
-  "tipo": "Puestas",
-  "anio": "",
+  "nombre": "Anillo cuadrado de ébano",
+  "tipo": "Anillos",
+  "anio": "2011",
   "fotos": [
-   "img/medalla-ojo-con-anillo-ola/1"
+   "img/anillo-cuadrado-ebano/1",
+   "img/anillo-cuadrado-ebano/2",
+   "img/anillo-cuadrado-ebano/3",
+   "img/anillo-cuadrado-ebano/4"
   ],
-  "estudio": false
+  "estudio": true,
+  "material": "Plata 925 y ébano"
  },
  {
   "id": 9,
-  "nombre": "Anillo Sedum",
+  "nombre": "Anillo cuadrado/redondo",
   "tipo": "Anillos",
-  "anio": "2019",
+  "anio": "2011",
   "fotos": [
-   "img/anillo-sedum/1"
+   "img/anillo-cuadrado-redondo/1",
+   "img/anillo-cuadrado-redondo/2",
+   "img/anillo-cuadrado-redondo/3"
   ],
   "estudio": true
  },
  {
   "id": 10,
-  "nombre": "Flor Sedum",
-  "tipo": "Colgantes",
-  "anio": "2019",
+  "nombre": "Anillo media vuelta",
+  "tipo": "Anillos",
+  "anio": "2011",
   "fotos": [
-   "img/flor-sedum/1"
+   "img/anillo-media-vuelta/1",
+   "img/anillo-media-vuelta/2",
+   "img/anillo-media-vuelta/3",
+   "img/anillo-media-vuelta/4"
+  ],
+  "estudio": true
+ },
+ {
+  "id": 11,
+  "nombre": "Aros argolla triangular",
+  "tipo": "Aros",
+  "anio": "2011",
+  "fotos": [
+   "img/aros-argolla-triangular/1",
+   "img/aros-argolla-triangular/2",
+   "img/aros-argolla-triangular/3"
+  ],
+  "estudio": true
+ },
+ {
+  "id": 12,
+  "nombre": "Aros ovalados de ébano",
+  "tipo": "Aros",
+  "anio": "2011",
+  "fotos": [
+   "img/aros-ovalados-ebano/1",
+   "img/aros-ovalados-ebano/2",
+   "img/aros-ovalados-ebano/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano"
+ },
+ {
+  "id": 13,
+  "nombre": "Broche art déco con ébano",
+  "tipo": "Broches",
+  "anio": "2011",
+  "fotos": [
+   "img/broche-art-deco-con-ebano/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano"
+ },
+ {
+  "id": 14,
+  "nombre": "Cadena tejido vikingo",
+  "tipo": "Cadenas",
+  "anio": "2011",
+  "fotos": [
+   "img/cadena-tejido-vikingo/1",
+   "img/cadena-tejido-vikingo/2",
+   "img/cadena-tejido-vikingo/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925"
+ },
+ {
+  "id": 15,
+  "nombre": "Dije cuadrado de ébano 1",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/dije-cuadrado-de-ebano-1/1",
+   "img/dije-cuadrado-de-ebano-1/2",
+   "img/dije-cuadrado-de-ebano-1/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano"
+ },
+ {
+  "id": 16,
+  "nombre": "Dije cuadrado de ébano 2",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/dije-cuadrado-de-ebano-2/1",
+   "img/dije-cuadrado-de-ebano-2/2",
+   "img/dije-cuadrado-de-ebano-2/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano"
+ },
+ {
+  "id": 17,
+  "nombre": "Dije cubo de ébano y plata",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/dije-cubo-ebano-y-plata/1",
+   "img/dije-cubo-ebano-y-plata/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano"
+ },
+ {
+  "id": 18,
+  "nombre": "Dije diagonal plata y ébano",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/dije-diagonal-plata-y-ebano/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano"
+ },
+ {
+  "id": 19,
+  "nombre": "Dije numeral",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/dije-numeral/1",
+   "img/dije-numeral/2"
   ],
   "estudio": true
  }
