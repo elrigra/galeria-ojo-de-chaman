@@ -275,5 +275,60 @@
   "estudio": true,
   "material": "Plata 925 y esmalte negro",
   "texto": "Gemelos de plata con un diseño geométrico calado sobre esmalte negro. Vienen de a par, listos para regalar en su caja."
+ },
+ {
+  "id": 22,
+  "nombre": "Aros escarabajo de jade y oro",
+  "tipo": "Aros",
+  "anio": "2011",
+  "fotos": [
+   "img/aros-escarabajo-de-jade-y-oro/1",
+   "img/aros-escarabajo-de-jade-y-oro/2",
+   "img/aros-escarabajo-de-jade-y-oro/3"
+  ],
+  "estudio": true,
+  "material": "Oro y jade",
+  "texto": "Esferas de jade tallado engarzadas en oro. Por detrás, un cierre firme y discreto."
+ },
+ {
+  "id": 23,
+  "nombre": "Anillo embrollo",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-embrollo/1",
+   "img/anillo-embrollo/2",
+   "img/anillo-embrollo/3",
+   "img/anillo-embrollo/4"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Un ovillo de alambres de plata enredado sobre la argolla, como si el anillo se hubiera hecho un nudo. Cada ángulo muestra un dibujo distinto."
+ },
+ {
+  "id": 24,
+  "nombre": "Colgante embrollo",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/colgante-embrollo/1",
+   "img/colgante-embrollo/2",
+   "img/colgante-embrollo/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y piedra negra",
+  "texto": "El mismo enredo de aros de plata, ahora colgando de un cordón de goma, con una piedra negra atrapada en el medio."
+ },
+ {
+  "id": 25,
+  "nombre": "Campana con ébano y plata",
+  "tipo": "Objetos",
+  "anio": "2011",
+  "fotos": [
+   "img/campana-con-ebano-y-plata/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Una campana pequeña con mango de ébano y el cuerpo trabajado en relieve."
  }
 ]
