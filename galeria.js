@@ -6,7 +6,7 @@
   var SCRIPT = document.currentScript;
   var BASE = new URL('.', SCRIPT ? SCRIPT.src : location.href).href;
   var WA = '5491133112754';
-  var PER_ROW = 8; // máximo de piezas por cinta
+  var PER_ROW = (window.innerWidth <= 760) ? 5 : 8; // máximo de piezas por cinta (5 en celular)
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var wa = function (t) { return 'https://wa.me/' + WA + '?text=' + encodeURIComponent(t); };
 
@@ -83,8 +83,9 @@
 .gal .g-btn:hover{transform:translateY(-3px);background:transparent;color:var(--g-gold)}
 .gal .g-btn svg{width:18px;height:18px}
 .glb{--g-cream:#f5edd6;--g-dark:#1a1208;--g-gold:#c8860a;position:fixed;inset:0;z-index:2147483000;background:rgba(26,18,8,.97);display:none;align-items:center;justify-items:center;color:var(--g-cream);
-  font-family:var(--body-font,'Lexend',sans-serif);padding:16px}
+  font-family:var(--body-font,'Lexend',sans-serif);padding:16px;grid-template-columns:minmax(0,1fr);overflow-x:hidden;overflow-y:auto}
 .glb *{box-sizing:border-box}
+.glb .stage{min-width:0;max-width:100%;margin:auto}.glb .info{min-width:0}
 .glb.on{display:grid;animation:galfade .3s}
 @keyframes galfade{from{opacity:0}}
 .glb button{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer;box-shadow:none}
@@ -111,10 +112,11 @@
 .glb dt{color:var(--g-gold)}.glb dd{margin:0}
 .glb .g-btn{display:inline-flex;align-items:center;background:var(--g-gold);color:var(--g-dark);font-weight:500;font-size:15px;padding:14px 26px;border-radius:999px;text-decoration:none;border:1px solid var(--g-gold);transition:.25s}
 .glb .g-btn:hover{background:transparent;color:var(--g-gold)}
-.glb .x{position:absolute;top:14px;right:14px;border:1px solid var(--g-gold);color:var(--g-gold);border-radius:999px;width:46px;height:46px;font-size:22px;display:grid;place-items:center;transition:.2s}
+.glb .x{position:fixed;z-index:5;background:rgba(26,18,8,.8);top:14px;right:14px;border:1px solid var(--g-gold);color:var(--g-gold);border-radius:999px;width:46px;height:46px;font-size:22px;display:grid;place-items:center;transition:.2s}
 .glb .x:hover{background:var(--g-gold);color:var(--g-dark)}
 @media (max-width:760px){
-  .glb .stage{grid-template-columns:1fr;gap:12px;align-content:center}
+  .glb .stage{grid-template-columns:minmax(0,1fr);gap:12px;align-content:center;width:100%}
+  .glb .info{padding:0 4px}.glb .tg,.glb h3,.glb p,.glb dl{overflow-wrap:anywhere}
   .glb .ar{width:42px;height:42px;margin-top:-21px}
   .gal .g-card.g-big{grid-column:span 1;grid-row:span 1}
   .gal .g-stats b{font-size:32px}
