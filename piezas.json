@@ -242,9 +242,38 @@
   "anio": "2011",
   "fotos": [
    "img/dije-numeral/1",
-   "img/dije-numeral/2"
+   "img/dije-numeral/2",
+   "img/dije-numeral/3"
   ],
   "estudio": true,
   "texto": "El numeral (#) hecho dije: líneas de plata que se cruzan formando la grilla."
+ },
+ {
+  "id": 20,
+  "nombre": "Collar orgánico con perla",
+  "tipo": "Collares",
+  "anio": "2011",
+  "fotos": [
+   "img/collar-organico-con-perla/1",
+   "img/collar-organico-con-perla/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y perla",
+  "texto": "Una perla dorada sostenida por un engarce de plata que se abre como pétalos. Cuelga de un cordón de goma negro y se siente liviana."
+ },
+ {
+  "id": 21,
+  "nombre": "Gemelos con esmalte",
+  "tipo": "Gemelos",
+  "anio": "2011",
+  "fotos": [
+   "img/gemelos-con-esmalte/1",
+   "img/gemelos-con-esmalte/2",
+   "img/gemelos-con-esmalte/3",
+   "img/gemelos-con-esmalte/4"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y esmalte negro",
+  "texto": "Gemelos de plata con un diseño geométrico calado sobre esmalte negro. Vienen de a par, listos para regalar en su caja."
  }
 ]
