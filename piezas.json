@@ -330,5 +330,60 @@
   "estudio": true,
   "material": "Plata 925 y ébano",
   "texto": "Una campana pequeña con mango de ébano y el cuerpo trabajado en relieve."
+ },
+ {
+  "id": 26,
+  "nombre": "Anillo bufón",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-bufon/1",
+   "img/anillo-bufon/2",
+   "img/anillo-bufon/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Una cinta de plata plegada en ondas, como el cuello de un bufón. Se ve distinto desde cada lado."
+ },
+ {
+  "id": 27,
+  "nombre": "Anillo visor con ébano",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-visor-con-ebano/1",
+   "img/anillo-visor-con-ebano/2",
+   "img/anillo-visor-con-ebano/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Una banda ancha de plata con una pestaña elevada que lleva una tira de ébano, como un visor."
+ },
+ {
+  "id": 28,
+  "nombre": "Anillo oval con ébano",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-oval-con-ebano/1",
+   "img/anillo-oval-con-ebano/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Banda ancha de plata con un óvalo de ébano engarzado en bisel."
+ },
+ {
+  "id": 29,
+  "nombre": "Anillo aleta con ébano",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-aleta-con-ebano/1",
+   "img/anillo-aleta-con-ebano/2",
+   "img/anillo-aleta-con-ebano/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "La banda de plata se levanta en una aleta con una cara de ébano. Líneas simples y filosas."
  }
 ]
