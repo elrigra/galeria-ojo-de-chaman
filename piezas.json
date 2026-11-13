@@ -31,7 +31,8 @@
   "anio": "2008",
   "fotos": [
    "img/dije-baquetas/1",
-   "img/dije-baquetas/2"
+   "img/dije-baquetas/2",
+   "img/dije-baquetas/4"
   ],
   "estudio": true,
   "texto": "Dos baquetas de batería cruzadas, hechas en plata maciza, hasta el detalle de la punta. Para el que lleva la música colgada del cuello."
@@ -501,5 +502,122 @@
   "estudio": true,
   "material": "Plata 925 y esmalte a fuego",
   "texto": "Rombos de plata pulida cortados por una cuña de esmalte azul, cocido a fuego. El brillo del metal contra el color profundo del vidrio."
+ },
+ {
+  "id": 39,
+  "nombre": "Señalador de libros plata y ébano",
+  "tipo": "Objetos",
+  "anio": "2011",
+  "fotos": [
+   "img/senalador-de-libros-plata-y-ebano/1",
+   "img/senalador-de-libros-plata-y-ebano/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Una horquilla de plata con una pieza de ébano que se desliza entre las páginas. Marca dónde quedaste y se luce sobre la mesa."
+ },
+ {
+  "id": 40,
+  "nombre": "Sello con iniciales",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/sello-con-iniciales/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Un sello de plata calado con las iniciales de su dueño, partido al medio por una línea fina. Una firma que se lleva en el dedo."
+ },
+ {
+  "id": 41,
+  "nombre": "Anillo continuado",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-continuado/1",
+   "img/anillo-continuado/2",
+   "img/anillo-continuado/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Un solo hilo de plata que se enrosca sobre sí mismo, sin principio ni final, hasta cerrar el anillo."
+ },
+ {
+  "id": 42,
+  "nombre": "Anillo cinturón de plata",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-cinturon-de-plata/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Una hebilla de plata con su púa y sus agujeros, como un cinturón en miniatura que abraza el dedo."
+ },
+ {
+  "id": 43,
+  "nombre": "Anillo con línea",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-con-linea/1",
+   "img/anillo-con-linea/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Una banda ancha de plata pulida cruzada por una sola línea fina. Minimalismo puro; el aro interior gira."
+ },
+ {
+  "id": 44,
+  "nombre": "Anillo cuadrado",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-cuadrado/1",
+   "img/anillo-cuadrado/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Un perfil cuadrado de plata con las esquinas apenas redondeadas. Geometría simple, pesada y cómoda."
+ },
+ {
+  "id": 45,
+  "nombre": "Colgante estratos plata y ébano",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/colgante-estratos-plata-y-ebano/1",
+   "img/colgante-estratos-plata-y-ebano/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Capas de ébano y de plata intercaladas en un óvalo pulido, como los estratos de una roca. Cuelga de un cordón de goma."
+ },
+ {
+  "id": 46,
+  "nombre": "Aros argollas triples",
+  "tipo": "Aros",
+  "anio": "2011",
+  "fotos": [
+   "img/aros-argollas-triples/1",
+   "img/aros-argollas-triples/2",
+   "img/aros-argollas-triples/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Argollas hechas con tres hilos de plata paralelos, livianas y con mucha presencia."
+ },
+ {
+  "id": 47,
+  "nombre": "Sello heráldico",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/sello-heraldico/1",
+   "img/sello-heraldico/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Un sello de plata con un escudo grabado a mano en la cara. Pieza de tradición, hecha como se hacían antes."
  }
 ]
