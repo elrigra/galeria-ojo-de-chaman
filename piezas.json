@@ -385,5 +385,70 @@
   "estudio": true,
   "material": "Plata 925 y ébano",
   "texto": "La banda de plata se levanta en una aleta con una cara de ébano. Líneas simples y filosas."
+ },
+ {
+  "id": 30,
+  "nombre": "Anillo pequeño embrollo",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-pequeno-embrollo/1",
+   "img/anillo-pequeno-embrollo/2",
+   "img/anillo-pequeno-embrollo/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "La versión chiquita del embrollo: pocos alambres de plata anudados sobre una argolla doble. Delicado y juguetón."
+ },
+ {
+  "id": 31,
+  "nombre": "Dije rectangular de ébano",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/dije-rectangular-de-ebano/1",
+   "img/dije-rectangular-de-ebano/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Un prisma de ébano con una cabeza de plata remachada, colgando de un cordón de goma."
+ },
+ {
+  "id": 32,
+  "nombre": "Dije cuadrado de ébano 3",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/dije-cuadrado-de-ebano-3/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Una placa de ébano girada en rombo, con borde de plata, que cuelga de un cordón de goma."
+ },
+ {
+  "id": 33,
+  "nombre": "Dije cubo ébano y plata 2",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/dije-cubo-ebano-y-plata-2/1",
+   "img/dije-cubo-ebano-y-plata-2/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Un cubito mitad plata y mitad ébano, con la unión recta y limpia, sobre cordón de goma."
+ },
+ {
+  "id": 34,
+  "nombre": "Dije adefesio plata y ébano",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/dije-adefesio-plata-y-ebano/1",
+   "img/dije-adefesio-plata-y-ebano/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Una forma orgánica de ébano con una curva de plata y pequeños ojos calados. Un adefesio con carácter."
  }
 ]
