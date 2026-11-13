@@ -619,5 +619,18 @@
   "estudio": true,
   "material": "Plata 925",
   "texto": "Un sello de plata con un escudo grabado a mano en la cara. Pieza de tradición, hecha como se hacían antes."
+ },
+ {
+  "id": 48,
+  "nombre": "Infinito de ébano",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/infinito-de-ebano/1",
+   "img/infinito-de-ebano/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Un lazo infinito tallado en ébano, con tres puntos de plata incrustados en la base. Cuelga de un cordón de goma con bail de plata."
  }
 ]
