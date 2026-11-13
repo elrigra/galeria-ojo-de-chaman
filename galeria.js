@@ -112,10 +112,10 @@
 .glb dt{color:var(--g-gold)}.glb dd{margin:0}
 .glb .g-btn{display:inline-flex;align-items:center;background:var(--g-gold);color:var(--g-dark);font-weight:500;font-size:15px;padding:14px 26px;border-radius:999px;text-decoration:none;border:1px solid var(--g-gold);transition:.25s}
 .glb .g-btn:hover{background:transparent;color:var(--g-gold)}
-.glb .x{position:fixed;z-index:5;background:rgba(26,18,8,.8);top:14px;right:14px;border:1px solid var(--g-gold);color:var(--g-gold);border-radius:999px;width:46px;height:46px;font-size:22px;display:grid;place-items:center;transition:.2s}
+.glb .x{position:absolute;z-index:5;background:rgba(26,18,8,.8);top:14px;right:14px;border:1px solid var(--g-gold);color:var(--g-gold);border-radius:999px;width:46px;height:46px;font-size:22px;display:grid;place-items:center;transition:.2s}
 .glb .x:hover{background:var(--g-gold);color:var(--g-dark)}
 @media (max-width:760px){
-  .glb{box-sizing:border-box;display:none;width:100vw;max-width:100vw;left:0;right:0}.glb.on{display:block}
+  .glb{box-sizing:border-box;display:none}.glb.on{display:block}
   .glb .stage{display:block;margin:0 auto;grid-template-columns:minmax(0,1fr);gap:12px;align-content:center;width:100%}
   .glb .info{padding:0 4px}.glb .tg,.glb h3,.glb p,.glb dl{overflow-wrap:anywhere}
   .glb .ar{width:42px;height:42px;margin-top:-21px}
@@ -243,11 +243,16 @@
 
     // visor
     var vp = $('.vp', lb), track = $('.track', lb), lastFocus = null;
+    function place() {
+      var v = window.visualViewport; if (!v) return;
+      lb.style.right = lb.style.bottom = 'auto'; lb.style.left = v.offsetLeft + 'px'; lb.style.top = v.offsetTop + 'px'; lb.style.width = v.width + 'px'; lb.style.height = v.height + 'px';
+    }
+    if (window.visualViewport) { visualViewport.addEventListener('resize', function () { if (lb.classList.contains('on')) { place(); layout(true); } }); visualViewport.addEventListener('scroll', place); }
     function openLb(i) {
       if (i < 0) return;
       var d = DATA[i]; if (view.indexOf(d) < 0) { cur = 'Todas'; applyFilter(); }
       open = view.indexOf(d); ph = 0; lastFocus = document.activeElement;
-      build(); lb.classList.add('on'); document.body.style.overflow = 'hidden'; layout(true); $('.x', lb).focus();
+      build(); lb.classList.add('on'); document.body.style.overflow = 'hidden'; place(); layout(true); $('.x', lb).focus();
     }
     function build() {
       var d = view[open], n = d.l.length;
@@ -260,7 +265,7 @@
     }
     function layout(instant) {
       var d = view[open]; if (!d) return;
-      var W = Math.max(120, Math.min(vp.clientWidth || 9999, (document.documentElement.clientWidth || innerWidth) - 32)), n = d.l.length, S = n > 1 ? Math.min(W * 0.76, innerHeight * 0.72) : Math.min(W, innerHeight * 0.72);
+      var W = Math.max(120, Math.min(vp.clientWidth || 9999, ((window.visualViewport && visualViewport.width) || document.documentElement.clientWidth || innerWidth) - 32)), n = d.l.length, S = n > 1 ? Math.min(W * 0.76, innerHeight * 0.72) : Math.min(W, innerHeight * 0.72);
       track.style.transition = instant ? 'none' : '';
       track.querySelectorAll('.slide').forEach(function (s, i) { s.style.width = S + 'px'; s.classList.toggle('cur', i === ph); if (i !== ph) s.classList.remove('zoom'); });
       track.style.transform = 'translateX(' + (W / 2 - S / 2 - ph * (S + 14)) + 'px)';
@@ -272,7 +277,7 @@
     function close() { lb.classList.remove('on'); document.body.style.overflow = ''; if (lastFocus) lastFocus.focus(); }
     $('.x', lb).onclick = close; $('.ar.p', lb).onclick = function () { photo(-1); }; $('.ar.n', lb).onclick = function () { photo(1); };
     lb.addEventListener('click', function (e) { if (e.target === lb) close(); });
-    addEventListener('resize', function () { fit(); if (lb.classList.contains('on')) layout(true); });
+    addEventListener('resize', function () { fit(); if (lb.classList.contains('on')) { place(); layout(true); } });
     addEventListener('keydown', function (e) { if (!lb.classList.contains('on')) return; if (e.key === 'Escape') close(); if (e.key === 'ArrowLeft') photo(-1); if (e.key === 'ArrowRight') photo(1); });
     track.addEventListener('click', function (e) {
       var s = e.target.closest('.slide'); if (!s) return; var i = +s.dataset.i;
