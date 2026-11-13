@@ -92,7 +92,7 @@
 .glb img{display:block;max-width:none}
 .glb .stage{width:min(1180px,100%);display:grid;grid-template-columns:minmax(0,1.6fr) minmax(220px,1fr);gap:clamp(18px,4vw,56px);align-items:center}
 .glb .car{position:relative;min-width:0}
-.glb .vp{overflow:hidden;border-radius:4px;touch-action:pan-y}
+.glb .vp{width:100%;max-width:100%;overflow:hidden;border-radius:4px;touch-action:pan-y}
 .glb .track{display:flex;gap:14px;transition:transform .55s cubic-bezier(.2,.8,.2,1)}
 .glb .slide{flex:none;aspect-ratio:1;background:#fff;border-radius:4px;overflow:hidden;opacity:.5;transform:scale(.93);transition:opacity .45s,transform .55s cubic-bezier(.2,.8,.2,1);cursor:pointer;border:1px solid rgba(245,237,214,.25)}
 .glb .slide.cur{opacity:1;transform:none;cursor:zoom-in}
@@ -115,7 +115,8 @@
 .glb .x{position:fixed;z-index:5;background:rgba(26,18,8,.8);top:14px;right:14px;border:1px solid var(--g-gold);color:var(--g-gold);border-radius:999px;width:46px;height:46px;font-size:22px;display:grid;place-items:center;transition:.2s}
 .glb .x:hover{background:var(--g-gold);color:var(--g-dark)}
 @media (max-width:760px){
-  .glb .stage{grid-template-columns:minmax(0,1fr);gap:12px;align-content:center;width:100%}
+  .glb{box-sizing:border-box;display:none;width:100vw;max-width:100vw;left:0;right:0}.glb.on{display:block}
+  .glb .stage{display:block;margin:0 auto;grid-template-columns:minmax(0,1fr);gap:12px;align-content:center;width:100%}
   .glb .info{padding:0 4px}.glb .tg,.glb h3,.glb p,.glb dl{overflow-wrap:anywhere}
   .glb .ar{width:42px;height:42px;margin-top:-21px}
   .gal .g-card.g-big{grid-column:span 1;grid-row:span 1}
@@ -259,7 +260,7 @@
     }
     function layout(instant) {
       var d = view[open]; if (!d) return;
-      var W = vp.clientWidth, n = d.l.length, S = n > 1 ? Math.min(W * 0.76, innerHeight * 0.72) : Math.min(W, innerHeight * 0.72);
+      var W = Math.max(120, Math.min(vp.clientWidth || 9999, (document.documentElement.clientWidth || innerWidth) - 32)), n = d.l.length, S = n > 1 ? Math.min(W * 0.76, innerHeight * 0.72) : Math.min(W, innerHeight * 0.72);
       track.style.transition = instant ? 'none' : '';
       track.querySelectorAll('.slide').forEach(function (s, i) { s.style.width = S + 'px'; s.classList.toggle('cur', i === ph); if (i !== ph) s.classList.remove('zoom'); });
       track.style.transform = 'translateX(' + (W / 2 - S / 2 - ph * (S + 14)) + 'px)';
