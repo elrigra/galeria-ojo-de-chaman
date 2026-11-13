@@ -632,5 +632,208 @@
   "estudio": true,
   "material": "Plata 925 y ébano",
   "texto": "Un lazo infinito tallado en ébano, con tres puntos de plata incrustados en la base. Cuelga de un cordón de goma con bail de plata."
+ },
+ {
+  "id": 49,
+  "nombre": "Llavero V8 plata y ébano",
+  "tipo": "Objetos",
+  "anio": "2011",
+  "fotos": [
+   "img/llavero-v8-plata-y-ebano/1",
+   "img/llavero-v8-plata-y-ebano/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Un emblema en V con el número 8 calado, en plata pulida con inserciones de ébano, que cuelga de una cadena de eslabones con mosquetón."
+ },
+ {
+  "id": 50,
+  "nombre": "Anillo bola de Moebius con textura",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-bola-de-moebius-con-textura/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Varias bandas de plata que se entrelazan como una bola de Moebius, algunas lisas y otras con textura martillada."
+ },
+ {
+  "id": 51,
+  "nombre": "Anillo con medio martelé",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-con-medio-martele/1",
+   "img/anillo-con-medio-martele/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Una banda de plata ancha, mitad pulida y mitad con un martelé oxidado y rugoso que marca el contraste."
+ },
+ {
+  "id": 52,
+  "nombre": "Anillo martelé cóncavo",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-martele-concavo/1",
+   "img/anillo-martele-concavo/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Una banda cóncava de plata martelada y oxidada, con el interior pulido que brilla contra la textura oscura."
+ },
+ {
+  "id": 53,
+  "nombre": "Anillo ébano en diagonal",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-ebano-en-diagonal/1",
+   "img/anillo-ebano-en-diagonal/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Una banda de plata con una pieza rectangular de ébano puesta en diagonal. Geometría limpia y contraste de materiales."
+ },
+ {
+  "id": 54,
+  "nombre": "Mini cuchillo plata y ébano",
+  "tipo": "Objetos",
+  "anio": "2011",
+  "fotos": [
+   "img/mini-cuchillo-plata-y-ebano/1",
+   "img/mini-cuchillo-plata-y-ebano/2",
+   "img/mini-cuchillo-plata-y-ebano/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925, ébano y acero",
+  "texto": "Un cuchillo pequeño con mango de ébano y remates de plata, que se guarda en su propia vaina de ébano y plata."
+ },
+ {
+  "id": 55,
+  "nombre": "Anillo texturado giratorio",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-texturado-giratorio/1",
+   "img/anillo-texturado-giratorio/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Una banda exterior texturada que gira libremente sobre un aro interior liso. Para tener algo con que jugar en la mano."
+ },
+ {
+  "id": 56,
+  "nombre": "Alianza martelé",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/alianza-martele/1",
+   "img/alianza-martele/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Una alianza de plata con la superficie martelada a mano, delgada, de borde pulido."
+ },
+ {
+  "id": 57,
+  "nombre": "Gemelos circulares con ébano",
+  "tipo": "Gemelos",
+  "anio": "2011",
+  "fotos": [
+   "img/gemelos-circulares-con-ebano/1",
+   "img/gemelos-circulares-con-ebano/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Gemelos redondos con un disco de ébano engarzado en plata y pequeños puntos de plata incrustados."
+ },
+ {
+  "id": 58,
+  "nombre": "Prendedor geométrico ébano y plata",
+  "tipo": "Broches",
+  "anio": "2011",
+  "fotos": [
+   "img/prendedor-geometrico-ebano-y-plata/1",
+   "img/prendedor-geometrico-ebano-y-plata/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Un prendedor de formas rectas, bloques de ébano y planos de plata pulida que se encastran como una pequeña escultura."
+ },
+ {
+  "id": 59,
+  "nombre": "Dije escudo ébano",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/dije-escudo-ebano/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Un escudo de ébano con un plano de plata pulida y tres puntos de oro en la base. Cuelga de un cordón de goma con bail de plata."
+ },
+ {
+  "id": 60,
+  "nombre": "Sello con iniciales",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/sello-con-iniciales-2/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Un sello de plata calado con las iniciales de su dueño. Una firma que se lleva en el dedo."
+ },
+ {
+  "id": 61,
+  "nombre": "Prendedor N ébano y plata",
+  "tipo": "Broches",
+  "anio": "2011",
+  "fotos": [
+   "img/prendedor-n-ebano-y-plata/1",
+   "img/prendedor-n-ebano-y-plata/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Un prendedor ovalado de ébano con una N cursiva de plata pulida. Por detrás, un pasador de plata con el sello del taller."
+ },
+ {
+  "id": 62,
+  "nombre": "Anillos con líneas",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillos-con-lineas/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Bandas anchas de plata pulida cruzadas por líneas finas. Un par sencillo, de líneas puras."
+ },
+ {
+  "id": 63,
+  "nombre": "Anillo medio bufón",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-medio-bufon/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Un anillo de plata cuyo frente se pliega en ondas, como el sombrero de un bufón. Por dentro lleva el sello del taller."
+ },
+ {
+  "id": 64,
+  "nombre": "Dije sol naciente",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/dije-sol-naciente/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Un óvalo calado de plata con el sol naciendo en su interior y rayos que se abren hacia el borde. Cuelga de una cadena de eslabones."
  }
 ]
