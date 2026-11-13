@@ -484,7 +484,8 @@
   "tipo": "Aros",
   "anio": "2011",
   "fotos": [
-   "img/aros-espartanos/1"
+   "img/aros-espartanos/1",
+   "img/aros-espartanos/2"
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
@@ -835,5 +836,166 @@
   "estudio": true,
   "material": "Plata 925",
   "texto": "Un óvalo calado de plata con el sol naciendo en su interior y rayos que se abren hacia el borde. Cuelga de una cadena de eslabones."
+ },
+ {
+  "id": 65,
+  "nombre": "Señalador de libros, ébano y plata",
+  "tipo": "Objetos",
+  "anio": "2011",
+  "fotos": [
+   "img/senalador-de-libros-ebano-y-plata-2/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Una horquilla de plata con una placa de ébano, hecha para marcar dónde quedaste y lucirse sobre la mesa."
+ },
+ {
+  "id": 66,
+  "nombre": "Anillo de oro y brillantes",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-de-oro-y-brillantes/1"
+  ],
+  "estudio": true,
+  "material": "Oro y brillantes",
+  "texto": "Una banda de oro de eslabones entrelazados, con brillantes engarzados en algunos de ellos."
+ },
+ {
+  "id": 67,
+  "nombre": "Alianzas Infinito",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/alianzas-infinito/1",
+   "img/alianzas-infinito/2",
+   "img/alianzas-infinito/3",
+   "img/alianzas-infinito/4"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Un par de alianzas de plata con el símbolo del infinito. Tiene un corazón en relieve del lado interno que se marca en el dedo y se ve al sacarte el anillo."
+ },
+ {
+  "id": 68,
+  "nombre": "Esclava de plata",
+  "tipo": "Objetos",
+  "anio": "2011",
+  "fotos": [
+   "img/esclava-de-plata/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Una esclava de plata de perfil redondeado, con una dedicatoria grabada en el interior."
+ },
+ {
+  "id": 69,
+  "nombre": "Anillo con perla",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-con-perla/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y perla",
+  "texto": "Un aro fino de plata que sostiene una perla en un engaste simple y delicado."
+ },
+ {
+  "id": 70,
+  "nombre": "Anillo fragmentado, ébano y plata",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-fragmentado-ebano-y-plata/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Una banda ancha de plata coronada por un fragmento de ébano en bruto, con su contorno irregular sin pulir."
+ },
+ {
+  "id": 71,
+  "nombre": "Dije fragmentado, ébano y plata",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/dije-fragmentado-ebano-y-plata/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Un fragmento de ébano en bruto sujeto por un bail de plata, que cuelga de un cordón de goma."
+ },
+ {
+  "id": 72,
+  "nombre": "Anillo cuadrado, plata y ébano",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-cuadrado-plata-y-ebano/1",
+   "img/anillo-cuadrado-plata-y-ebano/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Una banda cuadrada de plata con el interior circular y un filete de ébano en uno de sus lados."
+ },
+ {
+  "id": 73,
+  "nombre": "Anillo con lunares",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-con-lunares/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Una banda ancha de plata pulida con lunares oxidados de distintos tamaños distribuidos por la superficie."
+ },
+ {
+  "id": 74,
+  "nombre": "Anillo sinusoidal",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-sinusoidal/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Una banda ancha de plata pulida cruzada por una línea oxidada que ondula de lado a lado."
+ },
+ {
+  "id": 75,
+  "nombre": "Anillo cabuchón",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-cabuchon/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Un cabuchón de plata rodeado por un aro de ébano, sobre una banda de plata de perfil redondeado."
+ },
+ {
+  "id": 76,
+  "nombre": "Palitos de hockey",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/palitos-de-hockey/1",
+   "img/palitos-de-hockey/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Pequeños palos de hockey de plata, con el mango marcado y un aro para colgarlos."
+ },
+ {
+  "id": 77,
+  "nombre": "Anillo RIGRA",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-rigra/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "En el interior dice RIGRA y eso queda marcado en el dedo cuando te lo sacas."
  }
 ]
