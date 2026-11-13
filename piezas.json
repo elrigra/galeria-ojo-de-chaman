@@ -450,5 +450,56 @@
   "estudio": true,
   "material": "Plata 925 y ébano",
   "texto": "Una forma orgánica de ébano con una curva de plata y pequeños ojos calados. Un adefesio con carácter."
+ },
+ {
+  "id": 35,
+  "nombre": "Dije equilibrado",
+  "tipo": "Dijes",
+  "anio": "2011",
+  "fotos": [
+   "img/dije-equilibrado/1",
+   "img/dije-equilibrado/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Dos puntas de ébano en equilibrio sobre un eje de plata, colgando del cordón como una pequeña balanza."
+ },
+ {
+  "id": 36,
+  "nombre": "Anillo bola de Moebius",
+  "tipo": "Anillos",
+  "anio": "2011",
+  "fotos": [
+   "img/anillo-bola-de-moebius/1",
+   "img/anillo-bola-de-moebius/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Varias bandas de plata que se cruzan y se enroscan entre sí, formando una bola con la lógica de la cinta de Moebius."
+ },
+ {
+  "id": 37,
+  "nombre": "Aros espartanos",
+  "tipo": "Aros",
+  "anio": "2011",
+  "fotos": [
+   "img/aros-espartanos/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Dos puntas de ébano con un borde fino de plata y puntitos calados, como cascos espartanos."
+ },
+ {
+  "id": 38,
+  "nombre": "Aros con esmalte a fuego",
+  "tipo": "Aros",
+  "anio": "2011",
+  "fotos": [
+   "img/aros-con-esmalte-a-fuego/1",
+   "img/aros-con-esmalte-a-fuego/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y esmalte a fuego",
+  "texto": "Rombos de plata pulida cortados por una cuña de esmalte azul, cocido a fuego. El brillo del metal contra el color profundo del vidrio."
  }
 ]
