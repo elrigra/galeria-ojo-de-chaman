@@ -544,7 +544,8 @@
   "anio": "2011",
   "fotos": [
    "img/senalador-de-libros-plata-y-ebano/1",
-   "img/senalador-de-libros-plata-y-ebano/2"
+   "img/senalador-de-libros-plata-y-ebano/2",
+   "img/senalador-de-libros-plata-y-ebano/3"
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
@@ -877,7 +878,8 @@
   "tipo": "Anillos",
   "anio": "2012",
   "fotos": [
-   "img/anillo-medio-bufon/1"
+   "img/anillo-medio-bufon/1",
+   "img/anillo-medio-bufon/2"
   ],
   "estudio": true,
   "material": "Plata 925",
@@ -1701,5 +1703,18 @@
   "material": "Plata 925 y brillante",
   "texto": "Dije de plata con el contorno de una letra M y un brillante engarzado.",
   "fecha": "2013-09-04"
+ },
+ {
+  "id": 125,
+  "nombre": "Anillo con nudo celta",
+  "tipo": "Anillos",
+  "anio": "2012",
+  "fotos": [
+   "img/anillo-con-nudo-celta/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Banda ancha de plata con un nudo celta calado sobre fondo oxidado. Las hebras se cruzan sin principio ni fin.",
+  "fecha": "2012-04-26"
  }
 ]
