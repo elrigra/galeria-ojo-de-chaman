@@ -768,7 +768,8 @@
   "anio": "2012",
   "fotos": [
    "img/anillo-texturado-giratorio/1",
-   "img/anillo-texturado-giratorio/2"
+   "img/anillo-texturado-giratorio/2",
+   "img/anillo-texturado-giratorio/3"
   ],
   "estudio": true,
   "material": "Plata 925",
@@ -1492,20 +1493,6 @@
   "fecha": "2013-08-29"
  },
  {
-  "id": 109,
-  "nombre": "Dije F y dije M",
-  "tipo": "Dijes",
-  "anio": "2013",
-  "fotos": [
-   "img/dije-f-y-dije-m/1",
-   "img/dije-f-y-dije-m/2"
-  ],
-  "estudio": true,
-  "material": "Plata 925, ébano y brillante",
-  "texto": "Dos dijes de letras: la F en plata sobre ébano con cuatro tornillos, y la M en plata con un brillante engarzado.",
-  "fecha": "2013-09-04"
- },
- {
   "id": 110,
   "nombre": "Pulsera plana dientes de ciervo",
   "tipo": "Pulseras",
@@ -1658,5 +1645,61 @@
   "material": "Plástico translúcido de encendedores",
   "texto": "Anillos tallados a mano en el plástico translúcido de colores de encendedores: azules, naranjas, verdes y rojos, cada uno con una forma y calados distintos.",
   "fecha": "2012-08-27"
+ },
+ {
+  "id": 121,
+  "nombre": "Anillo texturado",
+  "tipo": "Anillos",
+  "anio": "2012",
+  "fotos": [
+   "img/anillo-texturado/1",
+   "img/anillo-texturado/2",
+   "img/anillo-texturado/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Banda ancha de plata con una textura de tajos diagonales oxidada, de la misma tanda que el anillo texturado giratorio.",
+  "fecha": "2012-01-24"
+ },
+ {
+  "id": 122,
+  "nombre": "Anillo grieta",
+  "tipo": "Anillos",
+  "anio": "2019",
+  "fotos": [
+   "img/anillo-grieta/1",
+   "img/anillo-grieta/2",
+   "img/anillo-grieta/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Banda ancha de plata con una línea oxidada en zigzag que la recorre, como una grieta.",
+  "fecha": "2019-10-18"
+ },
+ {
+  "id": 123,
+  "nombre": "Dije F",
+  "tipo": "Dijes",
+  "anio": "2013",
+  "fotos": [
+   "img/dije-f/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Dije de plata sobre ébano con una letra F calada y cuatro tornillos en las esquinas.",
+  "fecha": "2013-09-04"
+ },
+ {
+  "id": 124,
+  "nombre": "Dije M",
+  "tipo": "Dijes",
+  "anio": "2013",
+  "fotos": [
+   "img/dije-m/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y brillante",
+  "texto": "Dije de plata con el contorno de una letra M y un brillante engarzado.",
+  "fecha": "2013-09-04"
  }
 ]
