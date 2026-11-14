@@ -1641,5 +1641,22 @@
   "material": "Plata 925",
   "texto": "Anillo de plata con dos orejas de gato de interior oxidado.",
   "fecha": "2014-03-10"
+ },
+ {
+  "id": 120,
+  "nombre": "Anillos de encendedores",
+  "tipo": "Anillos",
+  "anio": "2012",
+  "fotos": [
+   "img/anillos-de-encendedores/1",
+   "img/anillos-de-encendedores/2",
+   "img/anillos-de-encendedores/3",
+   "img/anillos-de-encendedores/4",
+   "img/anillos-de-encendedores/5"
+  ],
+  "estudio": true,
+  "material": "Plástico translúcido de encendedores",
+  "texto": "Anillos tallados a mano en el plástico translúcido de colores de encendedores: azules, naranjas, verdes y rojos, cada uno con una forma y calados distintos.",
+  "fecha": "2012-08-27"
  }
 ]
