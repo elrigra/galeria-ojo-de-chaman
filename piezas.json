@@ -1245,5 +1245,18 @@
   "material": "Plata 925",
   "texto": "Un dije de plata con forma de pentágono irregular, hueco y de líneas puras, colgado de un cordón de acero.",
   "fecha": "2012-12-21"
+ },
+ {
+  "id": 91,
+  "nombre": "Aros geométricos",
+  "tipo": "Aros",
+  "anio": "2012",
+  "fotos": [
+   "img/aros-geometricos/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Aros de plata con forma de pentágono abierto, de perfil plano y terminación mate.",
+  "fecha": "2012-12-21"
  }
 ]
