@@ -141,7 +141,7 @@
   });
 
   function start(DATA) {
-    DATA.sort(function (a, b) { return (+a.anio || 9999) - (+b.anio || 9999) || a.id - b.id; });
+    DATA.sort(function (a, b) { return (+a.anio || 9999) - (+b.anio || 9999) || (a.fecha || "").localeCompare(b.fecha || "") || a.id - b.id; });
     DATA.forEach(function (d) { d.s = d.fotos.map(function (f) { return BASE + f + '-s.jpg'; }); d.l = d.fotos.map(function (f) { return BASE + f + '-l.jpg'; }); });
     var tags = ['Todas'].concat(DATA.map(function (d) { return d.tipo; }).filter(function (v, i, a) { return a.indexOf(v) === i; }));
     var years = DATA.map(function (d) { return +d.anio; }).filter(Boolean);

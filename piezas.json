@@ -35,7 +35,8 @@
    "img/dije-baquetas/4"
   ],
   "estudio": true,
-  "texto": "Dos baquetas de batería cruzadas, hechas en plata maciza, hasta el detalle de la punta. Para el que lleva la música colgada del cuello."
+  "texto": "Dos baquetas de batería cruzadas, hechas en plata maciza, hasta el detalle de la punta. Para el que lleva la música colgada del cuello.",
+  "fecha": "2011-11-04"
  },
  {
   "id": 4,
@@ -74,7 +75,8 @@
    "img/anillo-tauro/3"
   ],
   "estudio": true,
-  "texto": "Un anillo de líneas limpias que juega con el signo de Tauro. Plata lisa y proporciones equilibradas, para usar todos los días."
+  "texto": "Un anillo de líneas limpias que juega con el signo de Tauro. Plata lisa y proporciones equilibradas, para usar todos los días.",
+  "fecha": "2011-06-09"
  },
  {
   "id": 7,
@@ -86,7 +88,8 @@
    "img/anillo-cinta-de-moebius/2"
   ],
   "estudio": true,
-  "texto": "La cinta de Moebius hecha anillo: una sola cara que gira sobre sí misma y no tiene principio ni fin."
+  "texto": "La cinta de Moebius hecha anillo: una sola cara que gira sobre sí misma y no tiene principio ni fin.",
+  "fecha": "2011-06-09"
  },
  {
   "id": 8,
@@ -101,7 +104,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Un cuadrado de plata que contiene un cuadrado de ébano. Geometría pura, el negro de la madera contra el brillo del metal."
+  "texto": "Un cuadrado de plata que contiene un cuadrado de ébano. Geometría pura, el negro de la madera contra el brillo del metal.",
+  "fecha": "2011-06-03"
  },
  {
   "id": 9,
@@ -114,7 +118,8 @@
    "img/anillo-cuadrado-redondo/3"
   ],
   "estudio": true,
-  "texto": "Un anillo que arranca cuadrado y termina redondo. Se ve como una cosa de un lado y como otra del otro."
+  "texto": "Un anillo que arranca cuadrado y termina redondo. Se ve como una cosa de un lado y como otra del otro.",
+  "fecha": "2011-06-09"
  },
  {
   "id": 10,
@@ -128,7 +133,8 @@
    "img/anillo-media-vuelta/4"
   ],
   "estudio": true,
-  "texto": "Una media vuelta de plata que abraza el dedo sin cerrarse del todo. Cambia mucho según desde dónde la mires, por eso la fotografiamos desde cuatro ángulos."
+  "texto": "Una media vuelta de plata que abraza el dedo sin cerrarse del todo. Cambia mucho según desde dónde la mires, por eso la fotografiamos desde cuatro ángulos.",
+  "fecha": "2011-06-09"
  },
  {
   "id": 11,
@@ -141,7 +147,8 @@
    "img/aros-argolla-triangular/3"
   ],
   "estudio": true,
-  "texto": "Aros en forma de argolla con perfil triangular: la arista atrapa la luz y los hace mirar distinto en cada movimiento."
+  "texto": "Aros en forma de argolla con perfil triangular: la arista atrapa la luz y los hace mirar distinto en cada movimiento.",
+  "fecha": "2011-06-09"
  },
  {
   "id": 12,
@@ -155,7 +162,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Aros ovalados de ébano con un detalle de plata. Livianos, oscuros y sobrios."
+  "texto": "Aros ovalados de ébano con un detalle de plata. Livianos, oscuros y sobrios.",
+  "fecha": "2011-06-09"
  },
  {
   "id": 13,
@@ -167,7 +175,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Un broche de estilo art déco, de plata con ébano. Líneas geométricas heredadas de los años 20, hechas a mano."
+  "texto": "Un broche de estilo art déco, de plata con ébano. Líneas geométricas heredadas de los años 20, hechas a mano.",
+  "fecha": "2011-06-03"
  },
  {
   "id": 14,
@@ -181,7 +190,8 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Una cadena de plata en tejido vikingo: pequeñas piezas entrelazadas una por una. Pesa, brilla y se siente en la mano."
+  "texto": "Una cadena de plata en tejido vikingo: pequeñas piezas entrelazadas una por una. Pesa, brilla y se siente en la mano.",
+  "fecha": "2011-06-03"
  },
  {
   "id": 15,
@@ -195,7 +205,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Un dije cuadrado de ébano trabajado con plata. Primer hermano de la serie: simple, geométrico y fácil de combinar."
+  "texto": "Un dije cuadrado de ébano trabajado con plata. Primer hermano de la serie: simple, geométrico y fácil de combinar.",
+  "fecha": "2011-06-09"
  },
  {
   "id": 16,
@@ -209,7 +220,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "El segundo dije cuadrado de ébano de la serie: parecido al primero, pero con su propio detalle y proporción."
+  "texto": "El segundo dije cuadrado de ébano de la serie: parecido al primero, pero con su propio detalle y proporción.",
+  "fecha": "2011-06-09"
  },
  {
   "id": 17,
@@ -222,7 +234,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Un cubo pequeño que combina ébano y plata. Cuelga con peso y presencia, pese a su tamaño."
+  "texto": "Un cubo pequeño que combina ébano y plata. Cuelga con peso y presencia, pese a su tamaño.",
+  "fecha": "2011-06-03"
  },
  {
   "id": 18,
@@ -234,7 +247,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Una diagonal separa el dije en dos mitades: plata de un lado, ébano del otro."
+  "texto": "Una diagonal separa el dije en dos mitades: plata de un lado, ébano del otro.",
+  "fecha": "2011-06-03"
  },
  {
   "id": 19,
@@ -260,7 +274,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y perla",
-  "texto": "Una perla dorada sostenida por un engarce de plata que se abre como pétalos. Cuelga de un cordón de goma negro y se siente liviana."
+  "texto": "Una perla dorada sostenida por un engarce de plata que se abre como pétalos. Cuelga de un cordón de goma negro y se siente liviana.",
+  "fecha": "2011-06-14"
  },
  {
   "id": 21,
@@ -275,7 +290,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y esmalte negro",
-  "texto": "Gemelos de plata con un diseño geométrico calado sobre esmalte negro. Vienen de a par, listos para regalar en su caja."
+  "texto": "Gemelos de plata con un diseño geométrico calado sobre esmalte negro. Vienen de a par, listos para regalar en su caja.",
+  "fecha": "2011-08-05"
  },
  {
   "id": 22,
@@ -289,7 +305,8 @@
   ],
   "estudio": true,
   "material": "Oro y jade",
-  "texto": "Esferas de jade tallado engarzadas en oro. Por detrás, un cierre firme y discreto."
+  "texto": "Esferas de jade tallado engarzadas en oro. Por detrás, un cierre firme y discreto.",
+  "fecha": "2011-08-09"
  },
  {
   "id": 23,
@@ -304,7 +321,8 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Un ovillo de alambres de plata enredado sobre la argolla, como si el anillo se hubiera hecho un nudo. Cada ángulo muestra un dibujo distinto."
+  "texto": "Un ovillo de alambres de plata enredado sobre la argolla, como si el anillo se hubiera hecho un nudo. Cada ángulo muestra un dibujo distinto.",
+  "fecha": "2011-08-09"
  },
  {
   "id": 24,
@@ -318,7 +336,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y piedra negra",
-  "texto": "El mismo enredo de aros de plata, ahora colgando de un cordón de goma, con una piedra negra atrapada en el medio."
+  "texto": "El mismo enredo de aros de plata, ahora colgando de un cordón de goma, con una piedra negra atrapada en el medio.",
+  "fecha": "2011-08-09"
  },
  {
   "id": 25,
@@ -330,7 +349,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Una campana pequeña con mango de ébano y el cuerpo trabajado en relieve."
+  "texto": "Una campana pequeña con mango de ébano y el cuerpo trabajado en relieve.",
+  "fecha": "2011-08-19"
  },
  {
   "id": 26,
@@ -344,7 +364,8 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Una cinta de plata plegada en ondas, como el cuello de un bufón. Se ve distinto desde cada lado."
+  "texto": "Una cinta de plata plegada en ondas, como el cuello de un bufón. Se ve distinto desde cada lado.",
+  "fecha": "2011-09-24"
  },
  {
   "id": 27,
@@ -358,7 +379,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Una banda ancha de plata con una pestaña elevada que lleva una tira de ébano, como un visor."
+  "texto": "Una banda ancha de plata con una pestaña elevada que lleva una tira de ébano, como un visor.",
+  "fecha": "2011-09-24"
  },
  {
   "id": 28,
@@ -371,7 +393,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Banda ancha de plata con un óvalo de ébano engarzado en bisel."
+  "texto": "Banda ancha de plata con un óvalo de ébano engarzado en bisel.",
+  "fecha": "2011-10-03"
  },
  {
   "id": 29,
@@ -385,7 +408,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "La banda de plata se levanta en una aleta con una cara de ébano. Líneas simples y filosas."
+  "texto": "La banda de plata se levanta en una aleta con una cara de ébano. Líneas simples y filosas.",
+  "fecha": "2011-09-24"
  },
  {
   "id": 30,
@@ -399,7 +423,8 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "La versión chiquita del embrollo: pocos alambres de plata anudados sobre una argolla doble. Delicado y juguetón."
+  "texto": "La versión chiquita del embrollo: pocos alambres de plata anudados sobre una argolla doble. Delicado y juguetón.",
+  "fecha": "2011-09-24"
  },
  {
   "id": 31,
@@ -412,7 +437,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Un prisma de ébano con una cabeza de plata remachada, colgando de un cordón de goma."
+  "texto": "Un prisma de ébano con una cabeza de plata remachada, colgando de un cordón de goma.",
+  "fecha": "2011-09-24"
  },
  {
   "id": 32,
@@ -424,7 +450,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Una placa de ébano girada en rombo, con borde de plata, que cuelga de un cordón de goma."
+  "texto": "Una placa de ébano girada en rombo, con borde de plata, que cuelga de un cordón de goma.",
+  "fecha": "2011-09-24"
  },
  {
   "id": 33,
@@ -437,7 +464,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Un cubito mitad plata y mitad ébano, con la unión recta y limpia, sobre cordón de goma."
+  "texto": "Un cubito mitad plata y mitad ébano, con la unión recta y limpia, sobre cordón de goma.",
+  "fecha": "2011-09-24"
  },
  {
   "id": 34,
@@ -450,7 +478,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Una forma orgánica de ébano con una curva de plata y pequeños ojos calados. Un adefesio con carácter."
+  "texto": "Una forma orgánica de ébano con una curva de plata y pequeños ojos calados. Un adefesio con carácter.",
+  "fecha": "2011-10-03"
  },
  {
   "id": 35,
@@ -463,7 +492,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Dos puntas de ébano en equilibrio sobre un eje de plata, colgando del cordón como una pequeña balanza."
+  "texto": "Dos puntas de ébano en equilibrio sobre un eje de plata, colgando del cordón como una pequeña balanza.",
+  "fecha": "2011-09-24"
  },
  {
   "id": 36,
@@ -476,7 +506,8 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Varias bandas de plata que se cruzan y se enroscan entre sí, formando una bola con la lógica de la cinta de Moebius."
+  "texto": "Varias bandas de plata que se cruzan y se enroscan entre sí, formando una bola con la lógica de la cinta de Moebius.",
+  "fecha": "2011-09-24"
  },
  {
   "id": 37,
@@ -489,7 +520,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Dos puntas de ébano con un borde fino de plata y puntitos calados, como cascos espartanos."
+  "texto": "Dos puntas de ébano con un borde fino de plata y puntitos calados, como cascos espartanos.",
+  "fecha": "2011-10-09"
  },
  {
   "id": 38,
@@ -502,7 +534,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y esmalte a fuego",
-  "texto": "Rombos de plata pulida cortados por una cuña de esmalte azul, cocido a fuego. El brillo del metal contra el color profundo del vidrio."
+  "texto": "Rombos de plata pulida cortados por una cuña de esmalte azul, cocido a fuego. El brillo del metal contra el color profundo del vidrio.",
+  "fecha": "2011-11-08"
  },
  {
   "id": 39,
@@ -515,7 +548,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Una horquilla de plata con una pieza de ébano que se desliza entre las páginas. Marca dónde quedaste y se luce sobre la mesa."
+  "texto": "Una horquilla de plata con una pieza de ébano que se desliza entre las páginas. Marca dónde quedaste y se luce sobre la mesa.",
+  "fecha": "2011-10-09"
  },
  {
   "id": 40,
@@ -527,7 +561,8 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Un sello de plata calado con las iniciales de su dueño, partido al medio por una línea fina. Una firma que se lleva en el dedo."
+  "texto": "Un sello de plata calado con las iniciales de su dueño, partido al medio por una línea fina. Una firma que se lleva en el dedo.",
+  "fecha": "2011-11-04"
  },
  {
   "id": 41,
@@ -541,7 +576,8 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Un solo hilo de plata que se enrosca sobre sí mismo, sin principio ni final, hasta cerrar el anillo."
+  "texto": "Un solo hilo de plata que se enrosca sobre sí mismo, sin principio ni final, hasta cerrar el anillo.",
+  "fecha": "2011-11-04"
  },
  {
   "id": 42,
@@ -553,7 +589,8 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Una hebilla de plata con su púa y sus agujeros, como un cinturón en miniatura que abraza el dedo."
+  "texto": "Una hebilla de plata con su púa y sus agujeros, como un cinturón en miniatura que abraza el dedo.",
+  "fecha": "2011-11-08"
  },
  {
   "id": 43,
@@ -566,7 +603,8 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Una banda ancha de plata pulida cruzada por una sola línea fina. Minimalismo puro."
+  "texto": "Una banda ancha de plata pulida cruzada por una sola línea fina. Minimalismo puro.",
+  "fecha": "2011-11-04"
  },
  {
   "id": 44,
@@ -579,7 +617,8 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Un perfil cuadrado de plata con las esquinas apenas redondeadas. Geometría simple, pesada y cómoda."
+  "texto": "Un perfil cuadrado de plata con las esquinas apenas redondeadas. Geometría simple, pesada y cómoda.",
+  "fecha": "2011-11-04"
  },
  {
   "id": 45,
@@ -592,7 +631,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Capas de ébano y de plata intercaladas en un óvalo pulido, como los estratos de una roca. Cuelga de un cordón de goma."
+  "texto": "Capas de ébano y de plata intercaladas en un óvalo pulido, como los estratos de una roca. Cuelga de un cordón de goma.",
+  "fecha": "2011-11-04"
  },
  {
   "id": 46,
@@ -606,7 +646,8 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Argollas hechas con tres hilos de plata paralelos, livianas y con mucha presencia."
+  "texto": "Argollas hechas con tres hilos de plata paralelos, livianas y con mucha presencia.",
+  "fecha": "2011-12-22"
  },
  {
   "id": 47,
@@ -619,7 +660,8 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Un sello de plata con un escudo grabado a mano en la cara. Pieza de tradición, hecha como se hacían antes."
+  "texto": "Un sello de plata con un escudo grabado a mano en la cara. Pieza de tradición, hecha como se hacían antes.",
+  "fecha": "2011-12-27"
  },
  {
   "id": 48,
@@ -632,7 +674,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Un lazo infinito tallado en ébano, con tres puntos de plata incrustados en la base. Cuelga de un cordón de goma con bail de plata."
+  "texto": "Un lazo infinito tallado en ébano, con tres puntos de plata incrustados en la base. Cuelga de un cordón de goma con bail de plata.",
+  "fecha": "2011-10-09"
  },
  {
   "id": 49,
@@ -645,19 +688,21 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Un emblema en V con el número 8 calado, en plata pulida con inserciones de ébano, que cuelga de una cadena de eslabones con mosquetón."
+  "texto": "Un emblema en V con el número 8 calado, en plata pulida con inserciones de ébano, que cuelga de una cadena de eslabones con mosquetón.",
+  "fecha": "2011-12-27"
  },
  {
   "id": 50,
   "nombre": "Anillo bola de Moebius con textura",
   "tipo": "Anillos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/anillo-bola-de-moebius-con-textura/1"
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Varias bandas de plata que se entrelazan como una bola de Moebius, algunas lisas y otras con textura martillada."
+  "texto": "Varias bandas de plata que se entrelazan como una bola de Moebius, algunas lisas y otras con textura martillada.",
+  "fecha": "2012-02-06"
  },
  {
   "id": 51,
@@ -670,7 +715,8 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Una banda de plata ancha, mitad pulida y mitad con un martelé oxidado y rugoso que marca el contraste."
+  "texto": "Una banda de plata ancha, mitad pulida y mitad con un martelé oxidado y rugoso que marca el contraste.",
+  "fecha": "2011-12-27"
  },
  {
   "id": 52,
@@ -683,7 +729,8 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Una banda cóncava de plata martelada y oxidada, con el interior pulido que brilla contra la textura oscura."
+  "texto": "Una banda cóncava de plata martelada y oxidada, con el interior pulido que brilla contra la textura oscura.",
+  "fecha": "2011-12-27"
  },
  {
   "id": 53,
@@ -696,7 +743,8 @@
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Una banda de plata con una pieza rectangular de ébano puesta en diagonal. Geometría limpia y contraste de materiales."
+  "texto": "Una banda de plata con una pieza rectangular de ébano puesta en diagonal. Geometría limpia y contraste de materiales.",
+  "fecha": "2011-12-27"
  },
  {
   "id": 54,
@@ -710,71 +758,77 @@
   ],
   "estudio": true,
   "material": "Plata 925, ébano y acero",
-  "texto": "Un cuchillo pequeño con mango de ébano y remates de plata, que se guarda en su propia vaina de ébano y plata."
+  "texto": "Un cuchillo pequeño con mango de ébano y remates de plata, que se guarda en su propia vaina de ébano y plata.",
+  "fecha": "2011-12-27"
  },
  {
   "id": 55,
   "nombre": "Anillo texturado giratorio",
   "tipo": "Anillos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/anillo-texturado-giratorio/1",
    "img/anillo-texturado-giratorio/2"
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Una banda exterior texturada que gira libremente sobre un aro interior liso. Para tener algo con que jugar en la mano."
+  "texto": "Una banda exterior texturada que gira libremente sobre un aro interior liso. Para tener algo con que jugar en la mano.",
+  "fecha": "2012-01-24"
  },
  {
   "id": 56,
   "nombre": "Alianza martelé",
   "tipo": "Anillos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/alianza-martele/1",
    "img/alianza-martele/2"
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Una alianza de plata con la superficie martelada a mano, delgada, de borde pulido."
+  "texto": "Una alianza de plata con la superficie martelada a mano, delgada, de borde pulido.",
+  "fecha": "2012-01-24"
  },
  {
   "id": 57,
   "nombre": "Gemelos circulares con ébano",
   "tipo": "Gemelos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/gemelos-circulares-con-ebano/1",
    "img/gemelos-circulares-con-ebano/2"
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Gemelos redondos con un disco de ébano engarzado en plata y pequeños puntos de plata incrustados."
+  "texto": "Gemelos redondos con un disco de ébano engarzado en plata y pequeños puntos de plata incrustados.",
+  "fecha": "2012-01-24"
  },
  {
   "id": 58,
   "nombre": "Prendedor geométrico ébano y plata",
   "tipo": "Broches",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/prendedor-geometrico-ebano-y-plata/1",
    "img/prendedor-geometrico-ebano-y-plata/2"
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Un prendedor de formas rectas, bloques de ébano y planos de plata pulida que se encastran como una pequeña escultura."
+  "texto": "Un prendedor de formas rectas, bloques de ébano y planos de plata pulida que se encastran como una pequeña escultura.",
+  "fecha": "2012-01-24"
  },
  {
   "id": 59,
   "nombre": "Dije escudo ébano",
   "tipo": "Dijes",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/dije-escudo-ebano/1"
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Un escudo de ébano con un plano de plata pulida y tres puntos de oro en la base. Cuelga de un cordón de goma con bail de plata."
+  "texto": "Un escudo de ébano con un plano de plata pulida y tres puntos de oro en la base. Cuelga de un cordón de goma con bail de plata.",
+  "fecha": "2012-01-24"
  },
  {
   "id": 60,
@@ -786,86 +840,93 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Un sello de plata calado con las iniciales de su dueño. Una firma que se lleva en el dedo."
+  "texto": "Un sello de plata calado con las iniciales de su dueño. Una firma que se lleva en el dedo.",
+  "fecha": "2011-11-04"
  },
  {
   "id": 61,
   "nombre": "Prendedor N ébano y plata",
   "tipo": "Broches",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/prendedor-n-ebano-y-plata/1",
    "img/prendedor-n-ebano-y-plata/2"
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Un prendedor ovalado de ébano con una N cursiva de plata pulida. Por detrás, un pasador de plata con el sello del taller."
+  "texto": "Un prendedor ovalado de ébano con una N cursiva de plata pulida. Por detrás, un pasador de plata con el sello del taller.",
+  "fecha": "2012-03-23"
  },
  {
   "id": 62,
   "nombre": "Anillos con líneas",
   "tipo": "Anillos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/anillos-con-lineas/1"
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Bandas anchas de plata pulida cruzadas por líneas finas. Un par sencillo, de líneas puras."
+  "texto": "Bandas anchas de plata pulida cruzadas por líneas finas. Un par sencillo, de líneas puras.",
+  "fecha": "2012-05-09"
  },
  {
   "id": 63,
   "nombre": "Anillo medio bufón",
   "tipo": "Anillos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/anillo-medio-bufon/1"
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Un anillo de plata cuyo frente se pliega en ondas, como el sombrero de un bufón. Por dentro lleva el sello del taller."
+  "texto": "Un anillo de plata cuyo frente se pliega en ondas, como el sombrero de un bufón. Por dentro lleva el sello del taller.",
+  "fecha": "2012-05-09"
  },
  {
   "id": 64,
   "nombre": "Dije sol naciente",
   "tipo": "Dijes",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/dije-sol-naciente/1"
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Un óvalo calado de plata con el sol naciendo en su interior y rayos que se abren hacia el borde. Cuelga de una cadena de eslabones."
+  "texto": "Un óvalo calado de plata con el sol naciendo en su interior y rayos que se abren hacia el borde. Cuelga de una cadena de eslabones.",
+  "fecha": "2012-04-19"
  },
  {
   "id": 65,
   "nombre": "Señalador de libros, ébano y plata",
   "tipo": "Objetos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/senalador-de-libros-ebano-y-plata-2/1"
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Una horquilla de plata con una placa de ébano, hecha para marcar dónde quedaste y lucirse sobre la mesa."
+  "texto": "Una horquilla de plata con una placa de ébano, hecha para marcar dónde quedaste y lucirse sobre la mesa.",
+  "fecha": "2012-04-26"
  },
  {
   "id": 66,
   "nombre": "Anillo de oro y brillantes",
   "tipo": "Anillos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/anillo-de-oro-y-brillantes/1"
   ],
   "estudio": true,
   "material": "Oro y brillantes",
-  "texto": "Una banda de oro de eslabones entrelazados, con brillantes engarzados en algunos de ellos."
+  "texto": "Una banda de oro de eslabones entrelazados, con brillantes engarzados en algunos de ellos.",
+  "fecha": "2012-04-26"
  },
  {
   "id": 67,
   "nombre": "Alianzas Infinito",
   "tipo": "Anillos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/alianzas-infinito/1",
    "img/alianzas-infinito/2",
@@ -874,128 +935,139 @@
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Un par de alianzas de plata con el símbolo del infinito. Tiene un corazón en relieve del lado interno que se marca en el dedo y se ve al sacarte el anillo."
+  "texto": "Un par de alianzas de plata con el símbolo del infinito. Tiene un corazón en relieve del lado interno que se marca en el dedo y se ve al sacarte el anillo.",
+  "fecha": "2012-05-24"
  },
  {
   "id": 68,
   "nombre": "Esclava de plata",
   "tipo": "Objetos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/esclava-de-plata/1"
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Una esclava de plata de perfil redondeado, con una dedicatoria grabada en el interior."
+  "texto": "Una esclava de plata de perfil redondeado, con una dedicatoria grabada en el interior.",
+  "fecha": "2012-08-03"
  },
  {
   "id": 69,
   "nombre": "Anillo con perla",
   "tipo": "Anillos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/anillo-con-perla/1"
   ],
   "estudio": true,
   "material": "Plata 925 y perla",
-  "texto": "Un aro fino de plata que sostiene una perla en un engaste simple y delicado."
+  "texto": "Un aro fino de plata que sostiene una perla en un engaste simple y delicado.",
+  "fecha": "2012-06-04"
  },
  {
   "id": 70,
   "nombre": "Anillo fragmentado, ébano y plata",
   "tipo": "Anillos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/anillo-fragmentado-ebano-y-plata/1"
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Una banda ancha de plata coronada por un fragmento de ébano en bruto, con su contorno irregular sin pulir."
+  "texto": "Una banda ancha de plata coronada por un fragmento de ébano en bruto, con su contorno irregular sin pulir.",
+  "fecha": "2012-08-17"
  },
  {
   "id": 71,
   "nombre": "Dije fragmentado, ébano y plata",
   "tipo": "Dijes",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/dije-fragmentado-ebano-y-plata/1"
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Un fragmento de ébano en bruto sujeto por un bail de plata, que cuelga de un cordón de goma."
+  "texto": "Un fragmento de ébano en bruto sujeto por un bail de plata, que cuelga de un cordón de goma.",
+  "fecha": "2012-08-17"
  },
  {
   "id": 72,
   "nombre": "Anillo cuadrado, plata y ébano",
   "tipo": "Anillos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/anillo-cuadrado-plata-y-ebano/1",
    "img/anillo-cuadrado-plata-y-ebano/2"
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Una banda cuadrada de plata con el interior circular y un filete de ébano en uno de sus lados."
+  "texto": "Una banda cuadrada de plata con el interior circular y un filete de ébano en uno de sus lados.",
+  "fecha": "2012-08-15"
  },
  {
   "id": 73,
   "nombre": "Anillo con lunares",
   "tipo": "Anillos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/anillo-con-lunares/1"
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Una banda ancha de plata pulida con lunares oxidados de distintos tamaños distribuidos por la superficie."
+  "texto": "Una banda ancha de plata pulida con lunares oxidados de distintos tamaños distribuidos por la superficie.",
+  "fecha": "2012-08-15"
  },
  {
   "id": 74,
   "nombre": "Anillo sinusoidal",
   "tipo": "Anillos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/anillo-sinusoidal/1"
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Una banda ancha de plata pulida cruzada por una línea oxidada que ondula de lado a lado."
+  "texto": "Una banda ancha de plata pulida cruzada por una línea oxidada que ondula de lado a lado.",
+  "fecha": "2012-08-15"
  },
  {
   "id": 75,
   "nombre": "Anillo cabuchón",
   "tipo": "Anillos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/anillo-cabuchon/1"
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
-  "texto": "Un cabuchón de plata rodeado por un aro de ébano, sobre una banda de plata de perfil redondeado."
+  "texto": "Un cabuchón de plata rodeado por un aro de ébano, sobre una banda de plata de perfil redondeado.",
+  "fecha": "2012-08-17"
  },
  {
   "id": 76,
   "nombre": "Palitos de hockey",
   "tipo": "Dijes",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/palitos-de-hockey/1",
    "img/palitos-de-hockey/2"
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "Pequeños palos de hockey de plata, con el mango marcado y un aro para colgarlos."
+  "texto": "Pequeños palos de hockey de plata, con el mango marcado y un aro para colgarlos.",
+  "fecha": "2012-08-25"
  },
  {
   "id": 77,
   "nombre": "Anillo RIGRA",
   "tipo": "Anillos",
-  "anio": "2011",
+  "anio": "2012",
   "fotos": [
    "img/anillo-rigra/1"
   ],
   "estudio": true,
   "material": "Plata 925",
-  "texto": "En el interior dice RIGRA y eso queda marcado en el dedo cuando te lo sacas."
+  "texto": "En el interior dice RIGRA y eso queda marcado en el dedo cuando te lo sacas.",
+  "fecha": "2012-08-30"
  }
 ]
