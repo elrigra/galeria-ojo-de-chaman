@@ -1069,5 +1069,168 @@
   "material": "Plata 925",
   "texto": "En el interior dice RIGRA y eso queda marcado en el dedo cuando te lo sacas.",
   "fecha": "2012-08-30"
+ },
+ {
+  "id": 78,
+  "nombre": "Aplique luz de bicicleta",
+  "tipo": "Objetos",
+  "anio": "2012",
+  "fotos": [
+   "img/aplique-luz-de-bicicleta/1",
+   "img/aplique-luz-de-bicicleta/2"
+  ],
+  "estudio": true,
+  "material": "Bronce",
+  "texto": "Aplique de bronce con alas calada a mano y un reflector rojo en el centro. Pensado como luz trasera para una bicicleta customizada.",
+  "fecha": "2012-09-17"
+ },
+ {
+  "id": 79,
+  "nombre": "Aplique para bicicleta BOLLYWOODA",
+  "tipo": "Objetos",
+  "anio": "2012",
+  "fotos": [
+   "img/aplique-para-bicicleta-bollywooda/1"
+  ],
+  "estudio": true,
+  "material": "Bronce",
+  "texto": "Placa de bronce con la palabra BOLLYWOODA calada a mano. Un detalle para personalizar una bicicleta.",
+  "fecha": "2012-09-17"
+ },
+ {
+  "id": 80,
+  "nombre": "Aplique clip para bicicleta",
+  "tipo": "Objetos",
+  "anio": "2012",
+  "fotos": [
+   "img/aplique-clip-para-bicicleta/1"
+  ],
+  "estudio": true,
+  "material": "Bronce",
+  "texto": "Clip de bronce sujeto con dos tornillos, parte de una serie de apliques para una bicicleta customizada.",
+  "fecha": "2012-09-17"
+ },
+ {
+  "id": 81,
+  "nombre": "Conjunto de apliques para bicicleta customizada",
+  "tipo": "Objetos",
+  "anio": "2012",
+  "fotos": [
+   "img/conjunto-de-apliques-para-bicicleta-customizada/1"
+  ],
+  "estudio": true,
+  "material": "Bronce",
+  "texto": "El juego completo de apliques de bronce hechos para una bicicleta customizada: luz con alas, clip y placa BOLLYWOODA.",
+  "fecha": "2012-09-17"
+ },
+ {
+  "id": 82,
+  "nombre": "Alianzas con notas musicales",
+  "tipo": "Anillos",
+  "anio": "2012",
+  "fotos": [
+   "img/alianzas-con-notas-musicales/1",
+   "img/alianzas-con-notas-musicales/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Un par de alianzas anchas con un pentagrama grabado alrededor: clave de sol, notas y la melodía elegida por la pareja.",
+  "fecha": "2012-09-26"
+ },
+ {
+  "id": 83,
+  "nombre": "Señalador de libros clave de sol",
+  "tipo": "Objetos",
+  "anio": "2012",
+  "fotos": [
+   "img/senalador-de-libros-clave-de-sol/1",
+   "img/senalador-de-libros-clave-de-sol/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Una aguja de plata que remata en una clave de sol hecha con alambre. Para marcar la página con estilo.",
+  "fecha": "2012-10-08"
+ },
+ {
+  "id": 84,
+  "nombre": "Anillo de sello con iniciales",
+  "tipo": "Anillos",
+  "anio": "2012",
+  "fotos": [
+   "img/anillo-de-sello-con-iniciales/1",
+   "img/anillo-de-sello-con-iniciales/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Anillo de sello de plata con tres iniciales en relieve, calado de forma artesanal.",
+  "fecha": "2012-10-10"
+ },
+ {
+  "id": 85,
+  "nombre": "Quemador de hierbas de bronce",
+  "tipo": "Objetos",
+  "anio": "2012",
+  "fotos": [
+   "img/quemador-de-hierbas-de-bronce/1",
+   "img/quemador-de-hierbas-de-bronce/2"
+  ],
+  "estudio": true,
+  "material": "Bronce",
+  "texto": "Pipa curva de bronce para quemar hierbas, con tapa roscada en la base.",
+  "fecha": "2012-10-25"
+ },
+ {
+  "id": 86,
+  "nombre": "Anillo con bigotes",
+  "tipo": "Anillos",
+  "anio": "2012",
+  "fotos": [
+   "img/anillo-con-bigotes/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Anillo de plata con un bigote grabado en relieve, con cada pelo trabajado a mano.",
+  "fecha": "2012-11-17"
+ },
+ {
+  "id": 87,
+  "nombre": "Aritos de oro y brillantes",
+  "tipo": "Aros",
+  "anio": "2012",
+  "fotos": [
+   "img/aritos-de-oro-y-brillantes/1"
+  ],
+  "estudio": true,
+  "material": "Oro y brillantes",
+  "texto": "Aritos de oro con un brillante engarzado en el centro.",
+  "fecha": "2012-12-14"
+ },
+ {
+  "id": 88,
+  "nombre": "Anillo superpuesto",
+  "tipo": "Anillos",
+  "anio": "2012",
+  "fotos": [
+   "img/anillo-superpuesto/1",
+   "img/anillo-superpuesto/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Anillo ancho de plata con una pieza superpuesta sobre una base oxidada. Dos versiones: una lisa y otra con textura.",
+  "fecha": "2012-12-21"
+ },
+ {
+  "id": 89,
+  "nombre": "Cachas de ébano y plata para navaja",
+  "tipo": "Objetos",
+  "anio": "2012",
+  "fotos": [
+   "img/cachas-de-ebano-y-plata-para-navaja/1",
+   "img/cachas-de-ebano-y-plata-para-navaja/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "Navaja con cachas de ébano con puntos de plata y remates de plata trabajados.",
+  "fecha": "2012-12-21"
  }
 ]
