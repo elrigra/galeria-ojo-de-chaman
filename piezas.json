@@ -1410,5 +1410,236 @@
   "material": "Plata 925",
   "texto": "Un par de anillos de bandas finas que se cruzan: uno de plata lisa y brillante y otro oxidado con textura. Se usan por separado o entrelazados.",
   "fecha": "2012-12-21"
+ },
+ {
+  "id": 103,
+  "nombre": "Cierre de plata para collar de amatista",
+  "tipo": "Objetos",
+  "anio": "2013",
+  "fotos": [
+   "img/cierre-de-plata-para-collar-de-amatista/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y amatista",
+  "texto": "Cierre de plata tipo toggle, con anilla y barra, hecho para un collar de bolas de amatista. Lleva el sello RIGRA.",
+  "fecha": "2013-05-18"
+ },
+ {
+  "id": 104,
+  "nombre": "Dije aguamarina",
+  "tipo": "Dijes",
+  "anio": "2013",
+  "fotos": [
+   "img/dije-aguamarina/1",
+   "img/dije-aguamarina/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y aguamarina",
+  "texto": "Dije de plata con una aguamarina tallada en forma de gota, engarzada con garras, con su cadena. Se entrega en estuche.",
+  "fecha": "2013-05-20"
+ },
+ {
+  "id": 105,
+  "nombre": "Llavero de plata Norton",
+  "tipo": "Objetos",
+  "anio": "2013",
+  "fotos": [
+   "img/llavero-de-plata-norton/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 oxidada",
+  "texto": "Llavero de plata con el logo de Norton en relieve sobre fondo oxidado, con eslabones de cadena y mosquetón.",
+  "fecha": "2013-05-24"
+ },
+ {
+  "id": 106,
+  "nombre": "Colgante fluorita y plata",
+  "tipo": "Dijes",
+  "anio": "2013",
+  "fotos": [
+   "img/colgante-fluorita-y-plata/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y fluorita",
+  "texto": "Colgante con un cristal de fluorita verde en forma de octaedro, sujeto con un marco de plata, con su cadena.",
+  "fecha": "2013-08-06"
+ },
+ {
+  "id": 107,
+  "nombre": "Pulsera torsionada dientes de ciervo",
+  "tipo": "Pulseras",
+  "anio": "2013",
+  "fotos": [
+   "img/pulsera-torsionada-dientes-de-ciervo/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y dientes de ciervo",
+  "texto": "Pulsera abierta de plata con barras torsionadas que terminan en dos pares de dientes de ciervo.",
+  "fecha": "2013-08-29"
+ },
+ {
+  "id": 108,
+  "nombre": "Posa piedra de boleadora, colmillos de jabalí y plata",
+  "tipo": "Objetos",
+  "anio": "2013",
+  "fotos": [
+   "img/posa-piedra-de-boleadora-colmillos-de-jabali-y-plata/1",
+   "img/posa-piedra-de-boleadora-colmillos-de-jabali-y-plata/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y colmillos de jabalí",
+  "texto": "Soporte de plata con cuatro colmillos de jabalí que sostiene una piedra de boleadora.",
+  "fecha": "2013-08-29"
+ },
+ {
+  "id": 109,
+  "nombre": "Dije F y dije M",
+  "tipo": "Dijes",
+  "anio": "2013",
+  "fotos": [
+   "img/dije-f-y-dije-m/1",
+   "img/dije-f-y-dije-m/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925, ébano y brillante",
+  "texto": "Dos dijes de letras: la F en plata sobre ébano con cuatro tornillos, y la M en plata con un brillante engarzado.",
+  "fecha": "2013-09-04"
+ },
+ {
+  "id": 110,
+  "nombre": "Pulsera plana dientes de ciervo",
+  "tipo": "Pulseras",
+  "anio": "2013",
+  "fotos": [
+   "img/pulsera-plana-dientes-de-ciervo/1",
+   "img/pulsera-plana-dientes-de-ciervo/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y dientes de ciervo",
+  "texto": "Pulsera abierta de plata, de banda plana, con dientes de ciervo montados en los extremos y fijados con remaches.",
+  "fecha": "2013-09-09"
+ },
+ {
+  "id": 111,
+  "nombre": "Pulsera con infinitos entrelazados",
+  "tipo": "Pulseras",
+  "anio": "2013",
+  "fotos": [
+   "img/pulsera-con-infinitos-entrelazados/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Pulsera abierta de plata con bandas que se entrelazan formando infinitos.",
+  "fecha": "2013-12-17"
+ },
+ {
+  "id": 112,
+  "nombre": "Alianzas de oro",
+  "tipo": "Anillos",
+  "anio": "2013",
+  "fotos": [
+   "img/alianzas-de-oro/1"
+  ],
+  "estudio": true,
+  "material": "Oro",
+  "texto": "Par de alianzas de oro, lisas y de perfil redondeado.",
+  "fecha": "2013-12-17"
+ },
+ {
+  "id": 113,
+  "nombre": "Anillo y dije Primor",
+  "tipo": "Anillos",
+  "anio": "2013",
+  "fotos": [
+   "img/anillo-y-dije-primor/1",
+   "img/anillo-y-dije-primor/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925, ónix y turquesa",
+  "texto": "Conjunto de anillo y dije de alambres de plata que abrazan las piedras: un ónix en el anillo y una turquesa en el dije.",
+  "fecha": "2013-12-17"
+ },
+ {
+  "id": 114,
+  "nombre": "Llavero Audi",
+  "tipo": "Objetos",
+  "anio": "2013",
+  "fotos": [
+   "img/llavero-audi/1",
+   "img/llavero-audi/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Llavero de plata formado por cuatro aros encadenados y mosquetón.",
+  "fecha": "2013-12-28"
+ },
+ {
+  "id": 115,
+  "nombre": "Anillo grueso y anillo finito",
+  "tipo": "Anillos",
+  "anio": "2014",
+  "fotos": [
+   "img/anillo-grueso-y-anillo-finito/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Dos anillos para usar juntos: uno ancho con una banda oxidada y otro fino. Llevan el sello RIGRA.",
+  "fecha": "2014-01-27"
+ },
+ {
+  "id": 116,
+  "nombre": "Asistente de moxibustión de bronce",
+  "tipo": "Objetos",
+  "anio": "2014",
+  "fotos": [
+   "img/asistente-de-moxibustion-de-bronce/1",
+   "img/asistente-de-moxibustion-de-bronce/2"
+  ],
+  "estudio": true,
+  "material": "Bronce",
+  "texto": "Soporte de bronce de tres patas con una cinta de tela que sostiene el cigarro de moxa durante la moxibustión.",
+  "fecha": "2014-01-28"
+ },
+ {
+  "id": 117,
+  "nombre": "Llavero nudo celta",
+  "tipo": "Objetos",
+  "anio": "2014",
+  "fotos": [
+   "img/llavero-nudo-celta/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 oxidada",
+  "texto": "Llavero de plata con un nudo celta calado, de superficie texturada y oxidada, con mosquetón.",
+  "fecha": "2014-02-22"
+ },
+ {
+  "id": 118,
+  "nombre": "Jaula porta piedras energéticas",
+  "tipo": "Dijes",
+  "anio": "2014",
+  "fotos": [
+   "img/jaula-porta-piedras-energeticas/1",
+   "img/jaula-porta-piedras-energeticas/2",
+   "img/jaula-porta-piedras-energeticas/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y piedras",
+  "texto": "Dije en forma de jaula de alambre de plata trenzado que guarda piedras energéticas, con su cadena.",
+  "fecha": "2014-03-10"
+ },
+ {
+  "id": 119,
+  "nombre": "Anillo con orejas de gatito",
+  "tipo": "Anillos",
+  "anio": "2014",
+  "fotos": [
+   "img/anillo-con-orejas-de-gatito/1",
+   "img/anillo-con-orejas-de-gatito/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Anillo de plata con dos orejas de gato de interior oxidado.",
+  "fecha": "2014-03-10"
  }
 ]
