@@ -1258,5 +1258,141 @@
   "material": "Plata 925",
   "texto": "Aros de plata con forma de pentágono abierto, de perfil plano y terminación mate.",
   "fecha": "2012-12-21"
+ },
+ {
+  "id": 92,
+  "nombre": "Anillo contraste de brillos",
+  "tipo": "Anillos",
+  "anio": "2012",
+  "fotos": [
+   "img/anillo-contraste-de-brillos/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Anillo de plata mitad pulido, mitad mate, separados por una fina línea. Lleva el sello RIGRA en el interior.",
+  "fecha": "2012-12-21"
+ },
+ {
+  "id": 93,
+  "nombre": "Alianzas de plata y oro",
+  "tipo": "Anillos",
+  "anio": "2013",
+  "fotos": [
+   "img/alianzas-de-plata-y-oro/1",
+   "img/alianzas-de-plata-y-oro/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y oro",
+  "texto": "Un par de alianzas de plata con una banda de oro, una más ancha que la otra.",
+  "fecha": "2013-02-18"
+ },
+ {
+  "id": 94,
+  "nombre": "Dije avioncito de papel",
+  "tipo": "Dijes",
+  "anio": "2013",
+  "fotos": [
+   "img/dije-avioncito-de-papel/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Un avioncito de papel plegado, hecho en plata pulida, con sello RIGRA en el ala, colgado de un cordón de goma.",
+  "fecha": "2013-02-22"
+ },
+ {
+  "id": 95,
+  "nombre": "Anillo ancho grabado",
+  "tipo": "Anillos",
+  "anio": "2013",
+  "fotos": [
+   "img/anillo-ancho-grabado/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Anillo ancho de plata con la frase ALEA IACTA EST grabada alrededor, la que se atribuye a un emperador romano, entre dos filetes oxidados.",
+  "fecha": "2013-03-05"
+ },
+ {
+  "id": 96,
+  "nombre": "Esclavas con textura entrelazadas",
+  "tipo": "Objetos",
+  "anio": "2013",
+  "fotos": [
+   "img/esclavas-con-textura-entrelazadas/1",
+   "img/esclavas-con-textura-entrelazadas/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Tres esclavas de plata entrelazadas, dos con textura martillada y una lisa.",
+  "fecha": "2013-03-07"
+ },
+ {
+  "id": 97,
+  "nombre": "Colgante Katka",
+  "tipo": "Dijes",
+  "anio": "2013",
+  "fotos": [
+   "img/colgante-katka/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Colgante de alambre de plata con un contorno geométrico y dos espirales en su interior, colgado de un cordón de goma.",
+  "fecha": "2013-03-14"
+ },
+ {
+  "id": 98,
+  "nombre": "Anillo brillantes y plata",
+  "tipo": "Anillos",
+  "anio": "2013",
+  "fotos": [
+   "img/anillo-brillantes-y-plata/1",
+   "img/anillo-brillantes-y-plata/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y brillantes",
+  "texto": "Anillo fino de plata con una hilera de brillantes engarzados.",
+  "fecha": "2013-03-14"
+ },
+ {
+  "id": 99,
+  "nombre": "Pulsera marfil y plata: reparación",
+  "tipo": "Objetos",
+  "anio": "2013",
+  "fotos": [
+   "img/pulsera-marfil-y-plata-reparacion/1",
+   "img/pulsera-marfil-y-plata-reparacion/2"
+  ],
+  "estudio": true,
+  "material": "Marfil y plata 925",
+  "texto": "Pulsera de marfil con una banda de plata texturada y remaches. Trabajo de reparación: se repuso la pieza que se había desprendido.",
+  "fecha": "2013-03-11"
+ },
+ {
+  "id": 100,
+  "nombre": "Anillo de marfil y plata: reparación",
+  "tipo": "Anillos",
+  "anio": "2013",
+  "fotos": [
+   "img/anillo-de-marfil-y-plata-reparacion/1",
+   "img/anillo-de-marfil-y-plata-reparacion/2"
+  ],
+  "estudio": true,
+  "material": "Marfil, plata 925 y oro",
+  "texto": "Anillo de marfil con interior de plata y tachuelas de oro. Trabajo de reparación de una pieza partida.",
+  "fecha": "2013-03-28"
+ },
+ {
+  "id": 101,
+  "nombre": "Anillo zafiro y brillantes",
+  "tipo": "Anillos",
+  "anio": "2013",
+  "fotos": [
+   "img/anillo-zafiro-y-brillantes/1",
+   "img/anillo-zafiro-y-brillantes/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925, zafiro y brillantes",
+  "texto": "Anillo de plata con un zafiro azul al centro y brillantes a cada lado.",
+  "fecha": "2013-05-07"
  }
 ]
