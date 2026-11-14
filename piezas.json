@@ -1394,5 +1394,33 @@
   "material": "Plata 925, zafiro y brillantes",
   "texto": "Anillo de plata con un zafiro azul al centro y brillantes a cada lado.",
   "fecha": "2013-05-07"
+ },
+ {
+  "id": 102,
+  "nombre": "Anillos cruzados de plata lisa y oxidada",
+  "tipo": "Anillos",
+  "anio": "2012",
+  "fotos": [
+   "img/anillos-cruzados-de-plata-lisa-y-oxidada/1",
+   "img/anillos-cruzados-de-plata-lisa-y-oxidada/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Dos anillos de bandas finas que se cruzan: uno de plata lisa y brillante, otro oxidado con textura. Se usan por separado o juntos.",
+  "fecha": "2012-12-21"
+ },
+ {
+  "id": 103,
+  "nombre": "Anillos entrelazados de plata lisa y oxidada",
+  "tipo": "Anillos",
+  "anio": "2012",
+  "fotos": [
+   "img/anillos-entrelazados-de-plata-lisa-y-oxidada/1",
+   "img/anillos-entrelazados-de-plata-lisa-y-oxidada/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Los dos anillos de bandas finas, el liso y el oxidado, entrelazados entre sí.",
+  "fecha": "2012-12-21"
  }
 ]
