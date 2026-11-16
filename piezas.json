@@ -2375,5 +2375,44 @@
   "material": "Plata 925",
   "texto": "",
   "fecha": "2015-11-11"
+ },
+ {
+  "id": 173,
+  "nombre": "Pulsera tipo Tiffany",
+  "tipo": "Pulseras",
+  "anio": "2015",
+  "fotos": [
+   "img/pulsera-tipo-tiffany/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "",
+  "fecha": "2015-11-20"
+ },
+ {
+  "id": 174,
+  "nombre": "Llavero AR, plata",
+  "tipo": "Llavero",
+  "anio": "2015",
+  "fotos": [
+   "img/llavero-ar-plata/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "",
+  "fecha": "2015-11-20"
+ },
+ {
+  "id": 175,
+  "nombre": "Anillo aguamarinas",
+  "tipo": "Anillos",
+  "anio": "2016",
+  "fotos": [
+   "img/anillo-aguamarinas/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y aguamarinas",
+  "texto": "",
+  "fecha": "2016-01-30"
  }
 ]
