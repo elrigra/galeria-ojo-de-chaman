@@ -698,7 +698,8 @@
   "tipo": "Anillos",
   "anio": "2012",
   "fotos": [
-   "img/anillo-bola-de-moebius-con-textura/1"
+   "img/anillo-bola-de-moebius-con-textura/1",
+   "img/anillo-bola-de-moebius-con-textura/2"
   ],
   "estudio": true,
   "material": "Plata 925",
@@ -973,6 +974,8 @@
   "tipo": "Anillos",
   "anio": "2012",
   "fotos": [
+   "img/anillo-fragmentado-ebano-y-plata/2",
+   "img/anillo-fragmentado-ebano-y-plata/3",
    "img/anillo-fragmentado-ebano-y-plata/1"
   ],
   "estudio": true,
@@ -986,6 +989,8 @@
   "tipo": "Dijes",
   "anio": "2012",
   "fotos": [
+   "img/dije-fragmentado-ebano-y-plata/2",
+   "img/dije-fragmentado-ebano-y-plata/3",
    "img/dije-fragmentado-ebano-y-plata/1"
   ],
   "estudio": true,
@@ -1013,7 +1018,9 @@
   "tipo": "Anillos",
   "anio": "2012",
   "fotos": [
-   "img/anillo-con-lunares/1"
+   "img/anillo-con-lunares/1",
+   "img/anillo-con-lunares/2",
+   "img/anillo-con-lunares/3"
   ],
   "estudio": true,
   "material": "Plata 925",
@@ -1026,7 +1033,8 @@
   "tipo": "Anillos",
   "anio": "2012",
   "fotos": [
-   "img/anillo-sinusoidal/1"
+   "img/anillo-sinusoidal/1",
+   "img/anillo-sinusoidal/2"
   ],
   "estudio": true,
   "material": "Plata 925",
@@ -1641,7 +1649,12 @@
    "img/anillos-de-encendedores/2",
    "img/anillos-de-encendedores/3",
    "img/anillos-de-encendedores/4",
-   "img/anillos-de-encendedores/5"
+   "img/anillos-de-encendedores/5",
+   "img/anillos-de-encendedores/6",
+   "img/anillos-de-encendedores/7",
+   "img/anillos-de-encendedores/8",
+   "img/anillos-de-encendedores/9",
+   "img/anillos-de-encendedores/10"
   ],
   "estudio": true,
   "material": "Plástico translúcido de encendedores",
@@ -1716,5 +1729,18 @@
   "material": "Plata 925",
   "texto": "Banda ancha de plata con un nudo celta calado sobre fondo oxidado. Las hebras se cruzan sin principio ni fin.",
   "fecha": "2012-04-26"
+ },
+ {
+  "id": 126,
+  "nombre": "Dije bellota de retama",
+  "tipo": "Dijes",
+  "anio": "2012",
+  "fotos": [
+   "img/dije-bellota-de-retama/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y bellota de retama",
+  "texto": "Una bellota de retama con su capuchón rehecho en plata, recortado en puntas como el original. Cuelga de un cordón negro.",
+  "fecha": "2012-03-12"
  }
 ]
