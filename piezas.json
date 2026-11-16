@@ -2414,5 +2414,58 @@
   "material": "Plata 925 y aguamarinas",
   "texto": "",
   "fecha": "2016-01-30"
+ },
+ {
+  "id": 176,
+  "nombre": "Dije mandala",
+  "tipo": "Dijes",
+  "anio": "2016",
+  "fotos": [
+   "img/dije-mandala/1",
+   "img/dije-mandala/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "",
+  "fecha": "2016-05-22"
+ },
+ {
+  "id": 177,
+  "nombre": "Alianzas rompecabezas",
+  "tipo": "Anillos",
+  "anio": "2016",
+  "fotos": [
+   "img/alianzas-rompecabezas/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y brillante",
+  "texto": "",
+  "fecha": "2016-05-22"
+ },
+ {
+  "id": 178,
+  "nombre": "Gemelos rectangulares de ébano",
+  "tipo": "Gemelos",
+  "anio": "2016",
+  "fotos": [
+   "img/gemelos-rectangulares-de-ebano/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "",
+  "fecha": "2016-07-27"
+ },
+ {
+  "id": 179,
+  "nombre": "Anillo perro salchicha",
+  "tipo": "Anillos",
+  "anio": "2016",
+  "fotos": [
+   "img/anillo-perro-salchicha/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "",
+  "fecha": "2016-08-11"
  }
 ]
