@@ -713,7 +713,8 @@
   "anio": "2011",
   "fotos": [
    "img/anillo-con-medio-martele/1",
-   "img/anillo-con-medio-martele/2"
+   "img/anillo-con-medio-martele/2",
+   "img/anillo-con-medio-martele/3"
   ],
   "estudio": true,
   "material": "Plata 925",
@@ -727,7 +728,8 @@
   "anio": "2011",
   "fotos": [
    "img/anillo-martele-concavo/1",
-   "img/anillo-martele-concavo/2"
+   "img/anillo-martele-concavo/2",
+   "img/anillo-martele-concavo/3"
   ],
   "estudio": true,
   "material": "Plata 925",
@@ -1047,7 +1049,9 @@
   "tipo": "Anillos",
   "anio": "2012",
   "fotos": [
-   "img/anillo-cabuchon/1"
+   "img/anillo-cabuchon/1",
+   "img/anillo-cabuchon/2",
+   "img/anillo-cabuchon/3"
   ],
   "estudio": true,
   "material": "Plata 925 y ébano",
@@ -1811,5 +1815,19 @@
   "material": "Plata 925",
   "texto": "Una hebilla de plata con su púa y sus agujeros, como un cinturón en miniatura que abraza el dedo.",
   "fecha": "2008-11-12"
+ },
+ {
+  "id": 132,
+  "nombre": "Aros de plata esmaltados a fuego",
+  "tipo": "Aros",
+  "anio": "2012",
+  "fotos": [
+   "img/aros-de-plata-esmaltados-a-fuego/1",
+   "img/aros-de-plata-esmaltados-a-fuego/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y esmalte a fuego",
+  "texto": "Plata pulida con esmalte azul cocido a fuego, en una composición geométrica de líneas curvas.",
+  "fecha": "2012-03-12"
  }
 ]
