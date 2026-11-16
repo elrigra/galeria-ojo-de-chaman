@@ -2256,5 +2256,19 @@
   "material": "Plata 925 y ónix",
   "texto": "",
   "fecha": "2015-03-03"
+ },
+ {
+  "id": 164,
+  "nombre": "Anillo compromiso diamantes y plata",
+  "tipo": "Anillos",
+  "anio": "2015",
+  "fotos": [
+   "img/anillo-compromiso-diamantes-y-plata/1",
+   "img/anillo-compromiso-diamantes-y-plata/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y diamantes",
+  "texto": "",
+  "fecha": "2015-03-18"
  }
 ]
