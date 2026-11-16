@@ -1829,5 +1829,83 @@
   "material": "Plata 925 y esmalte a fuego",
   "texto": "Plata pulida con esmalte azul cocido a fuego, en una composición geométrica de líneas curvas.",
   "fecha": "2012-03-12"
+ },
+ {
+  "id": 133,
+  "nombre": "Amuleto gota de ébano y plata",
+  "tipo": "Objetos",
+  "anio": "2012",
+  "fotos": [
+   "img/amuleto-gota/1"
+  ],
+  "estudio": true,
+  "material": "Ébano y plata 925",
+  "texto": "Una gota de ébano pulido, salpicada de puntos de plata incrustados.",
+  "fecha": "2012-03-12"
+ },
+ {
+  "id": 134,
+  "nombre": "Amuleto barra de ébano y plata",
+  "tipo": "Objetos",
+  "anio": "2012",
+  "fotos": [
+   "img/amuleto-barra/1"
+  ],
+  "estudio": true,
+  "material": "Ébano y plata 925",
+  "texto": "Una barra de ébano pulido con puntos de plata incrustados, como una constelación.",
+  "fecha": "2012-03-12"
+ },
+ {
+  "id": 135,
+  "nombre": "Amuleto disco de ébano y plata",
+  "tipo": "Objetos",
+  "anio": "2012",
+  "fotos": [
+   "img/amuleto-disco/1"
+  ],
+  "estudio": true,
+  "material": "Ébano y plata 925",
+  "texto": "Un disco ovalado de ébano con un agujero central, cubierto de puntos de plata incrustados.",
+  "fecha": "2012-03-12"
+ },
+ {
+  "id": 136,
+  "nombre": "Amuleto triángulo de ébano y plata",
+  "tipo": "Objetos",
+  "anio": "2012",
+  "fotos": [
+   "img/amuleto-triangulo/1"
+  ],
+  "estudio": true,
+  "material": "Ébano y plata 925",
+  "texto": "Un triángulo de ébano de bordes suaves, con puntos de plata incrustados.",
+  "fecha": "2012-03-12"
+ },
+ {
+  "id": 137,
+  "nombre": "Amuleto ola de ébano y plata",
+  "tipo": "Objetos",
+  "anio": "2012",
+  "fotos": [
+   "img/amuleto-ola/1"
+  ],
+  "estudio": true,
+  "material": "Ébano y plata 925",
+  "texto": "Una forma ondulada de ébano pulido, con puntos de plata incrustados.",
+  "fecha": "2012-03-12"
+ },
+ {
+  "id": 138,
+  "nombre": "Amuleto hueso de ébano y plata",
+  "tipo": "Objetos",
+  "anio": "2012",
+  "fotos": [
+   "img/amuleto-hueso/1"
+  ],
+  "estudio": true,
+  "material": "Ébano y plata 925",
+  "texto": "Una forma alargada, como un hueso, de ébano pulido con puntos de plata incrustados.",
+  "fecha": "2012-03-12"
  }
 ]
