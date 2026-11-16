@@ -2228,5 +2228,19 @@
   "material": "Plata 925 y oro",
   "texto": "",
   "fecha": "2015-02-12"
+ },
+ {
+  "id": 162,
+  "nombre": "Llavero moneda de plata",
+  "tipo": "Llavero",
+  "anio": "2015",
+  "fotos": [
+   "img/llavero-moneda-de-plata/1",
+   "img/llavero-moneda-de-plata/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y moneda de plata",
+  "texto": "",
+  "fecha": "2015-02-17"
  }
 ]
