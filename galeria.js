@@ -216,7 +216,12 @@
     }
     var sec = document.createElement('section'); sec.className = 'g-yr';
     var g = document.createElement('div'); g.className = 'g-ygrid';
-    DATA.forEach(function (d, k) { addCard(d, g, k === 0); }); sec.appendChild(g);
+    var lastBig = -9;
+    DATA.forEach(function (d, k) {
+      // destacadas: una de cada ~7, elegida con un hash fijo del id (siempre las mismas, pero sin patrón); nunca dos seguidas
+      var h = (((d.id * 2654435761) >>> 0) % 1000) / 1000, big = k === 0 || (h < 0.15 && k - lastBig > 4);
+      if (big) lastBig = k; addCard(d, g, big);
+    }); sec.appendChild(g);
     sec.insertAdjacentHTML('beforeend', '<div class="g-soon" id="gsoon"><b>Cargando piezas</b>Seguimos subiendo piezas de los años siguientes. Volvé más tarde para verlas.</div>');
     grid.appendChild(sec);
     nav.hidden = true;

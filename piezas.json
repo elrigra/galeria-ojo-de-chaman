@@ -266,7 +266,7 @@
  {
   "id": 20,
   "nombre": "Collar orgánico con perla",
-  "tipo": "Collares",
+  "tipo": "Dijes",
   "anio": "2011",
   "fotos": [
    "img/collar-organico-con-perla/1",
@@ -681,7 +681,7 @@
  {
   "id": 49,
   "nombre": "Llavero V8 plata y ébano",
-  "tipo": "Objetos",
+  "tipo": "Llavero",
   "anio": "2011",
   "fotos": [
    "img/llavero-v8-plata-y-ebano/1",
@@ -1452,7 +1452,7 @@
  {
   "id": 105,
   "nombre": "Llavero de plata Norton",
-  "tipo": "Objetos",
+  "tipo": "Llavero",
   "anio": "2013",
   "fotos": [
    "img/llavero-de-plata-norton/1"
@@ -1559,7 +1559,7 @@
  {
   "id": 114,
   "nombre": "Llavero Audi",
-  "tipo": "Objetos",
+  "tipo": "Llavero",
   "anio": "2013",
   "fotos": [
    "img/llavero-audi/1",
@@ -1600,7 +1600,7 @@
  {
   "id": 117,
   "nombre": "Llavero nudo celta",
-  "tipo": "Objetos",
+  "tipo": "Llavero",
   "anio": "2014",
   "fotos": [
    "img/llavero-nudo-celta/1"
@@ -1742,5 +1742,74 @@
   "material": "Plata 925 y bellota de retama",
   "texto": "Una bellota de retama con su capuchón rehecho en plata, recortado en puntas como el original. Cuelga de un cordón negro.",
   "fecha": "2012-03-12"
+ },
+ {
+  "id": 127,
+  "nombre": "Dije púa J",
+  "tipo": "Dijes",
+  "anio": "2007",
+  "fotos": [
+   "img/dije-pua-j/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Un dije con forma de púa de guitarra, con una J en relieve, que cuelga de una cadena de plata.",
+  "fecha": "2007-11-13"
+ },
+ {
+  "id": 128,
+  "nombre": "Primer dije de práctica en la escuela",
+  "tipo": "Dijes",
+  "anio": "2007",
+  "fotos": [
+   "img/primer-dije-de-practica/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y lapislázuli",
+  "texto": "El primer dije de práctica en la escuela de joyería: plata y lapislázuli.",
+  "fecha": "2007-11-26"
+ },
+ {
+  "id": 129,
+  "nombre": "Prendedor casita pajaritos",
+  "tipo": "Broches",
+  "anio": "2008",
+  "fotos": [
+   "img/prendedor-casita-pajaritos/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Un prendedor de plata con forma de casita para pajaritos, con su agujero de entrada y su pequeño posadero.",
+  "fecha": "2008-10-23"
+ },
+ {
+  "id": 130,
+  "nombre": "Abrazo, quebracho y plata",
+  "tipo": "Anillos",
+  "anio": "2008",
+  "fotos": [
+   "img/abrazo-quebracho-y-plata/1",
+   "img/abrazo-quebracho-y-plata/2",
+   "img/abrazo-quebracho-y-plata/3"
+  ],
+  "estudio": true,
+  "material": "Quebracho y plata 925",
+  "texto": "El quebracho abraza un núcleo de plata para lograr ese anillo potente y refinado.",
+  "fecha": "2008-11-05"
+ },
+ {
+  "id": 131,
+  "nombre": "Anillo cinturón",
+  "tipo": "Anillos",
+  "anio": "2008",
+  "fotos": [
+   "img/anillo-cinturon-2008/1",
+   "img/anillo-cinturon-2008/2",
+   "img/anillo-cinturon-2008/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Una hebilla de plata con su púa y sus agujeros, como un cinturón en miniatura que abraza el dedo.",
+  "fecha": "2008-11-12"
  }
 ]
