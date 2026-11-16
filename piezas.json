@@ -1779,7 +1779,8 @@
   "tipo": "Broches",
   "anio": "2008",
   "fotos": [
-   "img/prendedor-casita-pajaritos/1"
+   "img/prendedor-casita-pajaritos/1",
+   "img/prendedor-casita-pajaritos/2"
   ],
   "estudio": true,
   "material": "Plata 925",
@@ -2348,5 +2349,31 @@
   "material": "Plata 925 oxidada",
   "texto": "",
   "fecha": "2015-11-02"
+ },
+ {
+  "id": 171,
+  "nombre": "Aros 3/4 círculo",
+  "tipo": "Aros",
+  "anio": "2015",
+  "fotos": [
+   "img/aros-tres-cuartos-circulo/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "",
+  "fecha": "2015-11-02"
+ },
+ {
+  "id": 172,
+  "nombre": "Llavero rueda de bicicleta",
+  "tipo": "Llavero",
+  "anio": "2015",
+  "fotos": [
+   "img/llavero-rueda-de-bicicleta/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "",
+  "fecha": "2015-11-11"
  }
 ]
