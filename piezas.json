@@ -2063,5 +2063,47 @@
   "material": "Plata 925",
   "texto": "Tres amigas me encargaron hacer 3 anillos entrelazados, donde cada uno representa a una de ellas.",
   "fecha": "2014-04-23"
+ },
+ {
+  "id": 150,
+  "nombre": "Dije druza de ágata",
+  "tipo": "Dijes",
+  "anio": "2014",
+  "fotos": [
+   "img/dije-druza-de-agata/1",
+   "img/dije-druza-de-agata/2",
+   "img/dije-druza-de-agata/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y druza de ágata",
+  "texto": "",
+  "fecha": "2014-04-25"
+ },
+ {
+  "id": 151,
+  "nombre": "Dije malaquita",
+  "tipo": "Dijes",
+  "anio": "2014",
+  "fotos": [
+   "img/dije-malaquita/1",
+   "img/dije-malaquita/2"
+  ],
+  "estudio": true,
+  "material": "Malaquita y plata 925",
+  "texto": "",
+  "fecha": "2014-06-18"
+ },
+ {
+  "id": 152,
+  "nombre": "Dije madera de retama",
+  "tipo": "Dijes",
+  "anio": "2014",
+  "fotos": [
+   "img/dije-madera-de-retama/1"
+  ],
+  "estudio": true,
+  "material": "Madera de retama y plata 925",
+  "texto": "",
+  "fecha": "2014-06-18"
  }
 ]
