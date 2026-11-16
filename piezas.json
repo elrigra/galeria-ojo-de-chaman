@@ -2322,5 +2322,31 @@
   "material": "Plata 925",
   "texto": "",
   "fecha": "2015-10-02"
+ },
+ {
+  "id": 169,
+  "nombre": "Anillo sinfín, oro blanco y brillantes",
+  "tipo": "Anillos",
+  "anio": "2015",
+  "fotos": [
+   "img/anillo-sinfin-oro-blanco-y-brillantes/1"
+  ],
+  "estudio": true,
+  "material": "Oro blanco y brillantes",
+  "texto": "",
+  "fecha": "2015-10-16"
+ },
+ {
+  "id": 170,
+  "nombre": "Dije patín",
+  "tipo": "Dijes",
+  "anio": "2015",
+  "fotos": [
+   "img/dije-patin/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 oxidada",
+  "texto": "",
+  "fecha": "2015-11-02"
  }
 ]
