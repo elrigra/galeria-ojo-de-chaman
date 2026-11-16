@@ -2282,6 +2282,45 @@
   "estudio": true,
   "material": "Oro, diamante y zafiro",
   "texto": "Este anillo con un diamante y un zafiro en forma de gota, está inspirado en el anillo que regaló Napoleón a Josefina para su boda.",
-  "fecha": "2015-04-10"
+  "fecha": "2015-04-01"
+ },
+ {
+  "id": 166,
+  "nombre": "Dije Mona",
+  "tipo": "Dijes",
+  "anio": "2015",
+  "fotos": [
+   "img/dije-mona/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "",
+  "fecha": "2015-04-03"
+ },
+ {
+  "id": 167,
+  "nombre": "Aritos triángulo de ébano",
+  "tipo": "Aros",
+  "anio": "2015",
+  "fotos": [
+   "img/aritos-triangulo-de-ebano/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ébano",
+  "texto": "",
+  "fecha": "2015-04-03"
+ },
+ {
+  "id": 168,
+  "nombre": "Dije Reliquias de la Muerte",
+  "tipo": "Dijes",
+  "anio": "2015",
+  "fotos": [
+   "img/dije-reliquias-de-la-muerte/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "",
+  "fecha": "2015-10-02"
  }
 ]
