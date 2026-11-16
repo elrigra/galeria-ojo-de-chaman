@@ -2034,5 +2034,34 @@
   "material": "Plata 925 y ébano",
   "texto": "",
   "fecha": "2012-12-06"
+ },
+ {
+  "id": 148,
+  "nombre": "Alianzas opuestas y entrelazadas",
+  "tipo": "Anillos",
+  "anio": "2012",
+  "fotos": [
+   "img/alianzas-opuestas-y-entrelazadas/1",
+   "img/alianzas-opuestas-y-entrelazadas/2",
+   "img/alianzas-opuestas-y-entrelazadas/3",
+   "img/alianzas-opuestas-y-entrelazadas/4"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "",
+  "fecha": "2012-12-20"
+ },
+ {
+  "id": 149,
+  "nombre": "3 Dijes 3 Amigas",
+  "tipo": "Dijes",
+  "anio": "2014",
+  "fotos": [
+   "img/tres-dijes-tres-amigas/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Tres amigas me encargaron hacer 3 anillos entrelazados, donde cada uno representa a una de ellas.",
+  "fecha": "2014-04-23"
  }
 ]
