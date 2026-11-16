@@ -2242,5 +2242,19 @@
   "material": "Plata 925 y moneda de plata",
   "texto": "",
   "fecha": "2015-02-17"
+ },
+ {
+  "id": 163,
+  "nombre": "Anillo ónix invertido",
+  "tipo": "Anillos",
+  "anio": "2015",
+  "fotos": [
+   "img/anillo-onix-invertido/1",
+   "img/anillo-onix-invertido/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y ónix",
+  "texto": "",
+  "fecha": "2015-03-03"
  }
 ]
