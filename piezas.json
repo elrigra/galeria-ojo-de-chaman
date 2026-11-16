@@ -2174,5 +2174,32 @@
   "material": "Plata 925",
   "texto": "Esta pieza está inspirada en la maqueta del trabajo final de una estudiante de arquitectura, fue su regalo de recibida.",
   "fecha": "2014-12-19"
+ },
+ {
+  "id": 158,
+  "nombre": "Prendedor paloma",
+  "tipo": "Broches",
+  "anio": "2015",
+  "fotos": [
+   "img/prendedor-paloma/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "",
+  "fecha": "2015-01-06"
+ },
+ {
+  "id": 159,
+  "nombre": "Anillo mariposa que mueve sus alas",
+  "tipo": "Anillos",
+  "anio": "2015",
+  "fotos": [
+   "img/anillo-mariposa-que-mueve-sus-alas/1",
+   "img/anillo-mariposa-que-mueve-sus-alas/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "",
+  "fecha": "2015-01-23"
  }
 ]
