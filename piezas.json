@@ -2105,5 +2105,18 @@
   "material": "Madera de retama y plata 925",
   "texto": "",
   "fecha": "2014-06-18"
+ },
+ {
+  "id": 153,
+  "nombre": "Aritos Hamsa, plata y oro",
+  "tipo": "Aros",
+  "anio": "2014",
+  "fotos": [
+   "img/aritos-hamsa-plata-y-oro/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y oro",
+  "texto": "",
+  "fecha": "2014-09-27"
  }
 ]
