@@ -2118,5 +2118,33 @@
   "material": "Plata 925 y oro",
   "texto": "",
   "fecha": "2014-09-27"
+ },
+ {
+  "id": 154,
+  "nombre": "Dije Cruz Franciscana",
+  "tipo": "Dijes",
+  "anio": "2014",
+  "fotos": [
+   "img/dije-cruz-franciscana/1",
+   "img/dije-cruz-franciscana/2"
+  ],
+  "estudio": true,
+  "material": "Ébano y plata 925",
+  "texto": "Me encargaron 2 cruces franciscanas de ébano, con un diente humano incrustado en una de ellas.",
+  "fecha": "2014-10-14"
+ },
+ {
+  "id": 155,
+  "nombre": "Alianzas Atlantes",
+  "tipo": "Anillos",
+  "anio": "2014",
+  "fotos": [
+   "img/alianzas-atlantes/1",
+   "img/alianzas-atlantes/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "",
+  "fecha": "2014-11-29"
  }
 ]
