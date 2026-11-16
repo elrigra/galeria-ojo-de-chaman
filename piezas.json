@@ -2201,5 +2201,32 @@
   "material": "Plata 925",
   "texto": "",
   "fecha": "2015-01-23"
+ },
+ {
+  "id": 160,
+  "nombre": "Dije karateca",
+  "tipo": "Dijes",
+  "anio": "2015",
+  "fotos": [
+   "img/dije-karateca/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "",
+  "fecha": "2015-01-30"
+ },
+ {
+  "id": 161,
+  "nombre": "Anillo Snitch Dorada, plata y oro",
+  "tipo": "Anillos",
+  "anio": "2015",
+  "fotos": [
+   "img/anillo-snitch-dorada/1",
+   "img/anillo-snitch-dorada/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y oro",
+  "texto": "",
+  "fecha": "2015-02-12"
  }
 ]
