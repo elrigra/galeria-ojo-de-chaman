@@ -1907,5 +1907,88 @@
   "material": "Ébano y plata 925",
   "texto": "Una forma alargada, como un hueso, de ébano pulido con puntos de plata incrustados.",
   "fecha": "2012-03-12"
+ },
+ {
+  "id": 139,
+  "nombre": "Aritos de plata y cúbic",
+  "tipo": "Aros",
+  "anio": "2012",
+  "fotos": [
+   "img/aritos-de-plata-y-cubic/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y circón cúbico",
+  "texto": "Aritos de plata con un circón cúbico engarzado en garras sobre una pequeña copa.",
+  "fecha": "2012-08-06"
+ },
+ {
+  "id": 140,
+  "nombre": "Dije curvilíneo",
+  "tipo": "Dijes",
+  "anio": "2012",
+  "fotos": [
+   "img/dije-curvilineo/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Una barra de plata pulida de curva sinuosa, como una S estirada, que cuelga de un torque de alambre.",
+  "fecha": "2012-08-06"
+ },
+ {
+  "id": 141,
+  "nombre": "Llavero de plata con iniciales",
+  "tipo": "Llavero",
+  "anio": "2013",
+  "fotos": [
+   "img/llavero-de-plata-con-iniciales/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Un llavero de plata con las iniciales caladas y oxidadas en negro, colgando de una cadena de eslabones rectangulares.",
+  "fecha": "2013-08-06"
+ },
+ {
+  "id": 142,
+  "nombre": "Anillo de sello con colmillo de perro",
+  "tipo": "Anillos",
+  "anio": "2013",
+  "fotos": [
+   "img/anillo-de-sello-con-colmillo-de-perro/1",
+   "img/anillo-de-sello-con-colmillo-de-perro/2",
+   "img/anillo-de-sello-con-colmillo-de-perro/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y colmillo de perro",
+  "texto": "Un anillo de sello de plata con una cajita oxidada en negro que guarda un colmillo de perro.",
+  "fecha": "2013-08-06"
+ },
+ {
+  "id": 143,
+  "nombre": "Dije abrazo de amatista",
+  "tipo": "Dijes",
+  "anio": "2013",
+  "fotos": [
+   "img/dije-abrazo-de-amatista/1",
+   "img/dije-abrazo-de-amatista/2",
+   "img/dije-abrazo-de-amatista/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y amatista",
+  "texto": "Una amatista en bruto abrazada por garras de plata, que cuelga de una cadena trenzada.",
+  "fecha": "2013-10-25"
+ },
+ {
+  "id": 144,
+  "nombre": "Dije piedra volcánica",
+  "tipo": "Dijes",
+  "anio": "2013",
+  "fotos": [
+   "img/dije-piedra-volcanica/1",
+   "img/dije-piedra-volcanica/2"
+  ],
+  "estudio": true,
+  "material": "Piedra volcánica y plata 925",
+  "texto": "Una piedra volcánica con esferas y barras de plata. Por detrás lleva la marca RIGRA y la leyenda OMAN 2011.",
+  "fecha": "2013-10-25"
  }
 ]
