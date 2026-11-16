@@ -2146,5 +2146,33 @@
   "material": "Plata 925",
   "texto": "",
   "fecha": "2014-11-29"
+ },
+ {
+  "id": 156,
+  "nombre": "Dije ébano oval con plata",
+  "tipo": "Dijes",
+  "anio": "2014",
+  "fotos": [
+   "img/dije-ebano-oval-con-plata/1",
+   "img/dije-ebano-oval-con-plata/2"
+  ],
+  "estudio": true,
+  "material": "Ébano y plata 925",
+  "texto": "",
+  "fecha": "2014-10-07"
+ },
+ {
+  "id": 157,
+  "nombre": "Dije maqueta arquitectónica",
+  "tipo": "Dijes",
+  "anio": "2014",
+  "fotos": [
+   "img/dije-maqueta-arquitectonica/1",
+   "img/dije-maqueta-arquitectonica/2"
+  ],
+  "estudio": true,
+  "material": "Plata 925",
+  "texto": "Esta pieza está inspirada en la maqueta del trabajo final de una estudiante de arquitectura, fue su regalo de recibida.",
+  "fecha": "2014-12-19"
  }
 ]
