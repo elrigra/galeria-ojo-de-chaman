@@ -1990,5 +1990,18 @@
   "material": "Piedra volcánica y plata 925",
   "texto": "Una piedra volcánica con esferas y barras de plata. Por detrás lleva la marca RIGRA y la leyenda OMAN 2011.",
   "fecha": "2013-10-25"
+ },
+ {
+  "id": 145,
+  "nombre": "Abrecartas de plata con cuerno de jabalí africano",
+  "tipo": "Objetos",
+  "anio": "2013",
+  "fotos": [
+   "img/abrecartas-de-plata-cuerno-de-jabali/1"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y cuerno de jabalí africano",
+  "texto": "Un abrecartas de hoja de plata grabada a mano, con empuñadura de cuerno de jabalí africano y un anillo de plata con pequeños símbolos.",
+  "fecha": "2013-10-25"
  }
 ]
