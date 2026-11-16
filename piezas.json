@@ -2467,5 +2467,20 @@
   "material": "Plata 925",
   "texto": "",
   "fecha": "2016-08-11"
+ },
+ {
+  "id": 180,
+  "nombre": "Collar Gauchos Reciclados",
+  "tipo": "Cadenas",
+  "anio": "2019",
+  "fotos": [
+   "img/collar-gauchos-reciclados/1",
+   "img/collar-gauchos-reciclados/2",
+   "img/collar-gauchos-reciclados/3"
+  ],
+  "estudio": true,
+  "material": "Plata 925 y materiales reciclados",
+  "texto": "",
+  "fecha": "2019-10-18"
  }
 ]
