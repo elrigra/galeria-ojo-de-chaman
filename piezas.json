@@ -1954,8 +1954,7 @@
   "anio": "2013",
   "fotos": [
    "img/anillo-de-sello-con-colmillo-de-perro/1",
-   "img/anillo-de-sello-con-colmillo-de-perro/2",
-   "img/anillo-de-sello-con-colmillo-de-perro/3"
+   "img/anillo-de-sello-con-colmillo-de-perro/2"
   ],
   "estudio": true,
   "material": "Plata 925 y colmillo de perro",
@@ -2003,5 +2002,24 @@
   "material": "Plata 925 y cuerno de jabalí africano",
   "texto": "Un abrecartas de hoja de plata grabada a mano, con empuñadura de cuerno de jabalí africano y un anillo de plata con pequeños símbolos.",
   "fecha": "2013-10-25"
+ },
+ {
+  "id": 146,
+  "nombre": "Anillo con cajón intercambiable",
+  "tipo": "Anillos",
+  "anio": "2012",
+  "fotos": [
+   "img/anillo-cajon-intercambiable/1",
+   "img/anillo-cajon-intercambiable/2",
+   "img/anillo-cajon-intercambiable/3",
+   "img/anillo-cajon-intercambiable/4",
+   "img/anillo-cajon-intercambiable/5",
+   "img/anillo-cajon-intercambiable/6",
+   "img/anillo-cajon-intercambiable/7"
+  ],
+  "estudio": true,
+  "material": "Plata 925, lapislázuli, malaquita y quebracho",
+  "texto": "Anillo de sello con sistema de cierre de cajón incorporado, para poder intercambiar la piedra superior. Cuenta con 3 módulos diferentes, con lapislázuli, malaquita y quebracho.",
+  "fecha": "2012-08-15"
  }
 ]
