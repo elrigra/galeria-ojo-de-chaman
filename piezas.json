@@ -2270,5 +2270,18 @@
   "material": "Plata 925 y diamantes",
   "texto": "",
   "fecha": "2015-03-18"
+ },
+ {
+  "id": 165,
+  "nombre": "Anillo Josefina",
+  "tipo": "Anillos",
+  "anio": "2015",
+  "fotos": [
+   "img/anillo-josefina/1"
+  ],
+  "estudio": true,
+  "material": "Oro, diamante y zafiro",
+  "texto": "Este anillo con un diamante y un zafiro en forma de gota, está inspirado en el anillo que regaló Napoleón a Josefina para su boda.",
+  "fecha": "2015-04-10"
  }
 ]
